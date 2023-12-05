@@ -1,0 +1,36 @@
+name: Auto Update Changelog
+
+on:
+  push:
+    branches:
+      - main  # Set your default branch here
+
+jobs:
+  update-changelog:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out the repo
+      uses: actions/checkout@v4
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.2.2'  # Set the Ruby version
+
+    - name: Install GitHub Changelog Generator
+      run: |
+        gem install github_changelog_generator
+        gem install faraday-retry  # Add this line if retry functionality is needed
+
+    - name: Generate Changelog
+      run: github_changelog_generator --user thomasthaddeus --project vcwtech.github.io
+      # Replace [GitHub Username] and [GitHub Repository Name] with actual values
+
+    - name: Commit Changelog
+      run: |
+        git config --global user.name 'thomasthaddeus'
+        git config --global user.email 'thaddeus.r.thomas@gmail.com'
+        git add CHANGELOG.md
+        git commit -m "Changelog updated" -a
+        git push

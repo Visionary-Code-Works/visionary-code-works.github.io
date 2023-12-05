@@ -1,0 +1,108 @@
+title: Your Site Title
+description: >- # this means to ignore newlines until "baseurl:"
+  This is your site description. It will be used for SEO purposes.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site https://visionary-code-works.github.io/vcwtech.github.io/
+email: your-email@domain.com
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO settings
+seo:
+  name: Your Site Name
+  description: 'A brief description of your site for SEO purposes'
+  twitter:
+    username: yourusername
+  og_image: '/path/to/default/social-image.jpg'
+
+# Optional analytics
+google_analytics: UA-XXXXXXXXX-X
+
+# Optional comments
+disqus:
+  shortname: your-disqus-shortname
+
+# Build optimizations
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+keep_files:
+  - .git
+  - .svn
+
+# Collections
+collections:
+  my_collection:
+    output: true
+    permalink: /:collection/:name
+
+# Permalinks
+permalink: /:year/:month/:day/:title/
+
+# Pagination (if using 'jekyll-paginate' or similar)
+paginate: 5
+paginate_path: "/page:num/"
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Markdown extensions
+kramdown:
+  input: GFM
+  hard_wrap: false
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Plugins (if you have specific plugins)
+plugins_dir: _plugins
+
+# Site language
+lang: en
+
+# Date and Time Format
+date_format: '%b %-d, %Y'
+
+# Default Front Matter
+# Optional feature images for posts
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "your default author"
+      image: "/assets/images/default.jpg"
+
+# Social Media Links
+social_links:
+  twitter: yourtwitterhandle
+  facebook: yourfacebookpage
+  github: yourgithubusername
+  linkedin: yourlinkedinprofile
+
+# Footer settings
+footer:
+  links:
+    - title: About
+      url: /about
+    - title: Privacy Policy
+      url: /privacy-policy
+    - title: Contact
+      url: /contact

@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="portfolio">
+    <h1>My Portfolio</h1>
+    <div class="portfolio-items">
+        {% for item in site.data.portfolio %}
+        <div class="portfolio-item">
+            <h2>{{ item.title }}</h2>
+            <p>{{ item.description }}</p>
+            <a href="{{ item.url }}">Learn more</a>
+            <!-- Additional content like images or videos could be added here -->
+        </div>
+        {% endfor %}
+    </div>
+</div>

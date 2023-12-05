@@ -1,0 +1,46 @@
+---
+layout: default
+title: Home
+---
+
+<!-- Header included from _includes/header.html -->
+{% include header.html %}
+
+<!-- Main Content of the Homepage -->
+<div class="container">
+    <section class="hero">
+        <h1>Welcome to Our Awesome Site</h1>
+        <p>This is a brief introduction or tagline for the site.</p>
+    </section>
+
+    <section class="features">
+        <h2>Features</h2>
+        <div class="row">
+            <!-- Feature blocks or cards -->
+        </div>
+    </section>
+
+    <section class="recent-posts">
+        <h2>Recent Blog Posts</h2>
+        <ul>
+            {% for post in site.posts limit:3 %}
+            <li>
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                <p>{{ post.excerpt }}</p>
+            </li>
+            {% endfor %}
+        </ul>
+        <a href="/blog/">View all posts</a>
+    </section>
+</div>
+
+<!-- Sidebar included from _includes/sidebar.html -->
+<aside class="sidebar">
+    {% include sidebar.html %}
+</aside>
+
+<!-- Footer included from _includes/footer.html -->
+{% include footer.html %}
+
+<!-- Custom JS -->
+<script src="{{ '/assets/js/main.js' | relative_url }}"></script>

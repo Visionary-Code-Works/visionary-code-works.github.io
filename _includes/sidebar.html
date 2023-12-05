@@ -1,0 +1,52 @@
+<aside class="sidebar">
+    <!-- Search Box -->
+    <section class="search">
+        <form action="{{ '/search/' | relative_url }}" method="get">
+            <input type="text" name="q" placeholder="Search...">
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <!-- Recent Posts -->
+    <section class="recent-posts">
+        <h3>Recent Posts</h3>
+        <ul>
+            {% for post in site.posts limit:5 %}
+            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+        <h3>Categories</h3>
+        <ul>
+            {% for category in site.categories %}
+            <li><a href="{{ '/categories/' | append: category[0] | relative_url }}">{{ category[0] }}</a></li>
+            {% endfor %}
+        </ul>
+    </section>
+
+    <!-- Tags -->
+    <section class="tags">
+        <h3>Tags</h3>
+        <ul>
+            {% for tag in site.tags %}
+            <li><a href="{{ '/tags/' | append: tag[0] | relative_url }}">{{ tag[0] }}</a></li>
+            {% endfor %}
+        </ul>
+    </section>
+
+    <!-- Advertisement Section -->
+    <section class="ads">
+        <h3>Advertisement</h3>
+        <div class="ad-content">
+            <!-- Your ad code or image link -->
+            <a href="https://example.com/ad-link">
+                <img src="https://example.com/path-to-your-ad-image.jpg" alt="Advert">
+            </a>
+            <!-- More ads can be added here -->
+        </div>
+    </section>
+
+</aside>
