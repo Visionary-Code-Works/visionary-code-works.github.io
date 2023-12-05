@@ -1,0 +1,51 @@
+<div class="custom-page">
+    <header class="custom-header" style="background-image: url('{{ page.header_image }}');">
+        <div class="header-content">
+            <h1>{{ page.title }}</h1>
+            {% if page.subtitle %}
+            <h2>{{ page.subtitle }}</h2>
+            {% endif %}
+        </div>
+    </header>
+
+    <section class="intro-section">
+        <div class="container">
+            {{ content }}
+        </div>
+    </section>
+
+    {% if page.featured_sections %}
+    <section class="featured-sections">
+        {% for section in page.featured_sections %}
+        <div class="featured-section">
+            <h3>{{ section.title }}</h3>
+            <p>{{ section.description }}</p>
+            {% if section.image %}
+            <img src="{{ section.image }}" alt="{{ section.title }}">
+            {% endif %}
+            {% if section.link %}
+            <a href="{{ section.link }}" class="more-link">Learn more</a>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </section>
+    {% endif %}
+
+    {% if page.testimonials %}
+    <section class="testimonials">
+        <div class="container">
+            <h3>What People Say</h3>
+            <ul>
+                {% for testimonial in page.testimonials %}
+                <li>
+                    <blockquote>{{ testimonial.quote }}</blockquote>
+                    <cite>{{ testimonial.author }}</cite>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </section>
+    {% endif %}
+
+    <!-- Additional custom sections as needed -->
+</div>

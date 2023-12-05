@@ -1,0 +1,19 @@
+// _header.scss
+
+.header {
+    background-color: $headerBgColor; // Variable from _variables.scss
+    padding: 1rem 0;
+
+    .branding {
+      a {
+        color: $headerTextColor;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+
+    .navigation {
+      // Navigation styles...
+    }
+  }

@@ -1,0 +1,33 @@
+// _footer.scss
+
+.footer {
+    background-color: $footerBgColor; // Variable from _variables.scss
+    color: $footerTextColor;
+    padding: 2rem 0;
+
+    .footer-links {
+      a {
+        color: $footerLinkColor;
+        &:hover {
+          color: darken($footerLinkColor, 15%);
+        }
+      }
+
+      // List styles, if footer links are in list format
+      li {
+        margin-bottom: 0.5rem;
+      }
+    }
+
+    // Additional styling for other footer elements
+    .social-links {
+      i {
+        color: #fff;
+        margin-right: 10px;
+
+        &:hover {
+          color: $primaryColor; // From _variables.scss
+        }
+      }
+    }
+  }

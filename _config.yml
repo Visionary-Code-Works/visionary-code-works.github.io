@@ -1,0 +1,108 @@
+title: Visionary Code Works
+description: >- # this means to ignore newlines until "baseurl:"
+  Visionary Code Works is a cutting-edge technology and design company specializing in innovative digital solutions. Our mission is to create impactful and user-friendly digital experiences that drive growth and efficiency.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://visionary-code-works.github.io/vcwtech.github.io/" # the base hostname & protocol for your site
+email: thaddeus.r.thomas@gmail.com           # your-email@domain.com
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO settings
+seo:
+  name: Visionary Code Works
+  description: 'Visionary Code Works is at the forefront of technological innovation, offering a wide range of services from web development to digital marketing strategies. We empower businesses to achieve their digital aspirations.'
+  twitter:
+    username: thomasthaddeus
+  og_image: '/assets/img/thad.jpg'
+
+# Optional analytics
+google_analytics: G-QH33T8MYJZ
+
+# Optional comments
+disqus:
+  shortname: your-disqus-shortname
+
+# Build optimizations
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+keep_files:
+  - .git
+  - .svn
+
+# Collections
+collections:
+  my_collection:
+    output: true
+    permalink: /:collection/:name
+
+# Permalinks
+permalink: /:year/:month/:day/:title/
+
+# Pagination (if using 'jekyll-paginate' or similar)
+paginate: 5
+paginate_path: "/page:num/"
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Markdown extensions
+kramdown:
+  input: GFM
+  hard_wrap: false
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Plugins (if you have specific plugins)
+plugins_dir: _plugins
+
+# Site language
+lang: en
+
+# Date and Time Format
+date_format: '%b %-d, %Y'
+
+# Default Front Matter
+# Optional feature images for posts
+defaults:
+  -
+    scope:
+      path: ".github/front_matter.yml"
+      type: "posts"
+    values:
+      layout: "post"
+      author: "thomasthaddeus"
+      image: "/assets/img/thad.jpg"
+
+# Social Media Links
+social_links:
+  twitter: yourtwitterhandle
+  facebook: yourfacebookpage
+  github: yourgithubusername
+  linkedin: yourlinkedinprofile
+
+# Footer settings
+footer:
+  links:
+    - title: About
+      url: /about
+    - title: Privacy Policy
+      url: /privacy-policy
+    - title: Contact
+      url: /contact

@@ -1,0 +1,13 @@
+<footer class="site-footer">
+    <div class="container">
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+        {% if site.footer_links %}
+            <ul class="footer-links">
+                {% for link in site.footer_links %}
+                    <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+        {% include social-links.html %}
+    </div>
+</footer>
