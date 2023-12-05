@@ -1,0 +1,32 @@
+// main.scss
+
+// Variables and Mixins
+@import "variables";
+@import "mixins";
+
+// Base styles
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $textColor; // Variable defined in _variables.scss
+  background-color: $backgroundColor; // Variable defined in _variables.scss
+}
+
+a {
+  color: $primaryColor; // Variable defined in _variables.scss
+  &:hover {
+    color: darken($primaryColor, 10%);
+  }
+}
+
+// Custom components
+@import "header";
+@import "footer";
+@import "sidebar";
+
+// Responsive styles
+@import "responsive";
+
+// Bootstrap overrides (if needed)
+@import "bootstrap-overrides";

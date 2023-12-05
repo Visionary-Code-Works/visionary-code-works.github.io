@@ -1,0 +1,46 @@
+// _mixins.scss
+
+// _mixins.scss
+
+// Mixin for Flexbox Centering
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Mixin for Responsive Font Size
+@mixin responsive-font-size($size) {
+  font-size: $size;
+  @media (max-width: $breakpoint-md) {
+    font-size: $size * 0.9;
+  }
+  @media (max-width: $breakpoint-sm) {
+    font-size: $size * 0.8;
+  }
+}
+
+// Mixin for Button Styling
+@mixin button-variant($bgColor, $textColor) {
+  background-color: $bgColor;
+  color: $textColor;
+  &:hover {
+    background-color: darken($bgColor, 10%);
+    color: lighten($textColor, 10%);
+  }
+}
+
+@mixin box-shadow($shadow) {
+    -webkit-box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    box-shadow: $shadow;
+  }
+
+  @mixin transition($property, $duration, $timing-function) {
+    -webkit-transition: $property $duration $timing-function;
+    -moz-transition: $property $duration $timing-function;
+    -o-transition: $property $duration $timing-function;
+    transition: $property $duration $timing-function;
+  }
+
+  // More mixins as needed...

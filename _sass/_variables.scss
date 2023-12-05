@@ -1,0 +1,58 @@
+// _variables.scss
+
+// Color Scheme
+$primaryColor: #007bff;
+$secondaryColor: #6c757d;
+$successColor: #28a745;
+$infoColor: #17a2b8;
+$warningColor: #ffc107;
+$dangerColor: #dc3545;
+$lightColor: #f8f8f8;
+$darkColor: #343a40;
+$sidebarBgColor: #f4f4f4;
+$textColor: #333;
+$footerBgColor: #222;
+$footerTextColor: #fff;
+$footerLinkColor: $lightColor;
+$lightGray: #ddd;
+$headerBgColor: #333;
+$headerTextColor: #fff;
+
+// Extended Color Palette
+$accentColor: #ff5722; // Example of an accent color
+$backgroundColor: #f8f8f8;
+$linkColor: #007bff;
+$linkHoverColor: darken($linkColor, 15%);
+
+// Typography
+$fontFamily: 'Helvetica Neue', Arial, sans-serif;
+$baseFontSize: 16px;
+$smallFontSize: 0.8rem;
+$largeFontSize: 1.2rem;
+$headingFontFamily: 'Georgia', serif;
+$headingFontWeight: 700;
+
+// Spacing
+$spacing-unit: 1rem;
+$spacing-small: $spacing-unit / 2;
+$spacing-large: $spacing-unit * 1.5;
+
+// Borders and Radius
+$border-radius: 4px;
+$border-color: $lightGray;
+
+// Breakpoints for responsive design
+$breakpoint-xs: 320px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// Container widths
+$container-sm: 540px;
+$container-md: 720px;
+$container-lg: 960px;
+$container-xl: 1140px;
+
+
+// More variables as needed...

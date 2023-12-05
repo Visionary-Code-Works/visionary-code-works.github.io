@@ -1,0 +1,28 @@
+// _bootstrap-overrides.scss
+
+// Example of overriding Bootstrap's primary color
+$primary: #4caf50; // Green instead of default blue
+
+// Customizing the navbar
+.navbar {
+  background-color: $primary;
+
+  .navbar-brand {
+    font-weight: bold;
+    color: #fff;
+
+    &:hover {
+      color: darken(#fff, 10%);
+    }
+  }
+
+  .nav-link {
+    color: #fff;
+
+    &:hover {
+      color: darken(#fff, 10%);
+    }
+  }
+}
+
+// More Bootstrap overrides as needed...
