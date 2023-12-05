@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 # Jekyll
 gem 'jekyll', '~> 4.3.2' # or the latest stable version
+gem 'liquid'
+gem 'rack'
 
 # If you're using GitHub Pages, you might include:
 #gem 'github-pages', group: :jekyll_plugins
@@ -19,3 +21,4 @@ end
 
 gem 'webrick'
 gem 'faraday-retry'
+gem "minima"

@@ -1,9 +1,9 @@
-title: Your Site Title
+title: Visionary Code Works
 description: >- # this means to ignore newlines until "baseurl:"
-  This is your site description. It will be used for SEO purposes.
+  Visionary Code Works is a cutting-edge technology and design company specializing in innovative digital solutions. Our mission is to create impactful and user-friendly digital experiences that drive growth and efficiency.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site https://visionary-code-works.github.io/vcwtech.github.io/
-email: your-email@domain.com
+url: "https://visionary-code-works.github.io/vcwtech.github.io/" # the base hostname & protocol for your site
+email: thaddeus.r.thomas@gmail.com           # your-email@domain.com
 
 # Build settings
 markdown: kramdown
@@ -15,14 +15,14 @@ plugins:
 
 # SEO settings
 seo:
-  name: Your Site Name
-  description: 'A brief description of your site for SEO purposes'
+  name: Visionary Code Works
+  description: 'Visionary Code Works is at the forefront of technological innovation, offering a wide range of services from web development to digital marketing strategies. We empower businesses to achieve their digital aspirations.'
   twitter:
-    username: yourusername
-  og_image: '/path/to/default/social-image.jpg'
+    username: thomasthaddeus
+  og_image: '/assets/img/thad.jpg'
 
 # Optional analytics
-google_analytics: UA-XXXXXXXXX-X
+google_analytics: G-QH33T8MYJZ
 
 # Optional comments
 disqus:
@@ -83,12 +83,12 @@ date_format: '%b %-d, %Y'
 defaults:
   -
     scope:
-      path: ""
+      path: ".github/front_matter.yml"
       type: "posts"
     values:
       layout: "post"
-      author: "your default author"
-      image: "/assets/images/default.jpg"
+      author: "thomasthaddeus"
+      image: "/assets/img/thad.jpg"
 
 # Social Media Links
 social_links:
