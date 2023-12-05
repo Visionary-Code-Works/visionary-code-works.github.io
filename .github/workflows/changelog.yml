@@ -24,7 +24,7 @@ jobs:
         gem install faraday-retry  # Add this line if retry functionality is needed
 
     - name: Generate Changelog
-      run: github_changelog_generator --user thomasthaddeus --project vcwtech.github.io
+      run: github_changelog_generator --user 'thomasthaddeus' --project 'vcwtech.github.io'
       # Replace [GitHub Username] and [GitHub Repository Name] with actual values
 
     - name: Commit Changelog
