@@ -2,11 +2,11 @@
 layout: custom
 title: "Welcome to Our Special Campaign"
 subtitle: "Join us in our effort to make a difference"
-header_image: "/assets/images/custom-header.jpg"
+header_image: "/assets/img/custom-header.jpg"
 featured_sections:
   - title: "Feature 1"
     description: "Description of feature 1."
-    image: "/assets/images/feature1.jpg"
+    image: "/assets/img/feature1.jpg"
     link: "/feature-1/"
   - title: "Feature 2"
     description: "Description of feature 2."
