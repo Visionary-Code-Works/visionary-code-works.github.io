@@ -7,7 +7,7 @@ email: thaddeus.r.thomas@gmail.com           # your-email@domain.com
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: cayman
 plugins:
   - jekyll-feed
   - jekyll-sitemap
