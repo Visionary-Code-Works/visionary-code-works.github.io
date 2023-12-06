@@ -1,42 +1,44 @@
 // _header.scss
 
+@import 'variables';
+
 .header {
   background-color: $headerBgColor; // Variable from _variables.scss
   padding: 1rem 0;
   border-bottom: 1px solid $lightGray; // Adds a bottom border to the header
 
   .branding {
-      a {
-          color: $headerTextColor;
-          font-size: 1.5rem;
-          font-weight: bold;
-          text-decoration: none;
+    a {
+      color: $headerTextColor;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-decoration: none;
 
-          &:hover {
-              color: darken($headerTextColor, 10%);
-          }
+      &:hover {
+        color: darken($headerTextColor, 10%);
       }
+    }
   }
 
   .navigation {
-      display: flex;
-      justify-content: flex-end; // Aligns navigation items to the right
-      list-style: none; // Removes list styling
-      margin: 0; // Removes default margin
+    display: flex;
+    justify-content: flex-end; // Aligns navigation items to the right
+    list-style: none; // Removes list styling
+    margin: 0; // Removes default margin
 
-      li {
-          margin-left: 20px; // Spacing between navigation items
+    li {
+      margin-left: 20px; // Spacing between navigation items
 
-          a {
-              color: $textColor;
-              text-decoration: none;
-              font-weight: normal;
+      a {
+        color: $textColor;
+        text-decoration: none;
+        font-weight: normal;
 
-              &:hover {
-                  color: $primaryColor;
-                  text-decoration: underline;
-              }
-          }
+        &:hover {
+          color: $primaryColor;
+          text-decoration: underline;
+        }
       }
+    }
   }
 }

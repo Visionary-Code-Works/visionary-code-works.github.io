@@ -1,5 +1,7 @@
 // _bootstrap-overrides.scss
 
+@import 'variables';
+
 // Example of overriding Bootstrap's primary color
 $primary: #4caf50; // Green instead of default blue
 

@@ -1,5 +1,7 @@
 // _sidebar.scss
 
+@import "variables";
+
 .sidebar {
   background-color: $sidebarBgColor;
   padding: 1rem;
@@ -175,53 +177,53 @@
       }
     }
   }
-    // Featured Content
-    .featured-content {
-      margin-top: 2rem;
-      padding: 1rem;
-      background-color: $lightColor;
-      border: 1px solid $lightGray;
-      border-radius: $border-radius;
+  // Featured Content
+  .featured-content {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: $lightColor;
+    border: 1px solid $lightGray;
+    border-radius: $border-radius;
 
-      .featured-item {
-          margin-bottom: 1rem;
+    .featured-item {
+      margin-bottom: 1rem;
 
-          h5 {
-              margin-bottom: 0.5rem;
-          }
-
-          p {
-              margin-bottom: 0;
-              font-size: $smallFontSize;
-          }
+      h5 {
+        margin-bottom: 0.5rem;
       }
+
+      p {
+        margin-bottom: 0;
+        font-size: $smallFontSize;
+      }
+    }
   }
 
   // Archives List
   .archives-list {
-      margin-top: 2rem;
+    margin-top: 2rem;
 
-      h4 {
-          margin-bottom: 1rem;
-      }
+    h4 {
+      margin-bottom: 1rem;
+    }
 
-      ul {
-          list-style: none;
-          padding: 0;
+    ul {
+      list-style: none;
+      padding: 0;
 
-          li {
-              margin-bottom: 0.5rem;
+      li {
+        margin-bottom: 0.5rem;
 
-              a {
-                  text-decoration: none;
-                  color: $textColor;
+        a {
+          text-decoration: none;
+          color: $textColor;
 
-                  &:hover {
-                      text-decoration: underline;
-                  }
-              }
+          &:hover {
+            text-decoration: underline;
           }
+        }
       }
+    }
   }
 
   // Custom Widget Area

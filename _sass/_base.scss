@@ -1,5 +1,7 @@
 // _base.scss
 
+@import "variables";
+
 // Body
 body {
   font-family: $fontFamily; // Using variable from _variables.scss

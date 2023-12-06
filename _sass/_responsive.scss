@@ -1,33 +1,69 @@
 // _responsive.scss
 
+@import "variables";
+
 // Small devices (landscape phones, less than 768px)
 @media (max-width: $breakpoint-sm) {
-    .navbar {
-      // Custom styles for mobile nav
-    }
+  .navbar {
+    // Collapsible mobile navigation
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-    .hero-section {
-      padding: 2rem 1rem;
+    .nav-link {
+      padding: 0.5rem 1rem;
+      text-align: center;
+      border-bottom: 1px solid $lightGray;
     }
   }
 
-  // Medium devices (tablets, 768px and up)
-  @media (min-width: $breakpoint-md) {
-    .sidebar {
-      // Styles for sidebar on tablet
-    }
+  .hero-section {
+    padding: 2rem 1rem;
+    text-align: center; // Center content for mobile view
   }
 
-  // Large devices (desktops, 992px and up)
-  @media (min-width: $breakpoint-lg) {
-    .gallery-item {
-      // Styles for gallery items on desktop
-    }
+  .sidebar {
+    display: none; // Hide sidebar on small devices
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: $breakpoint-md) {
+  .sidebar {
+    display: block; // Show sidebar on tablets and up
+    width: 25%; // Sidebar width
+    float: right;
   }
 
-  // Extra large devices (large desktops, 1200px and up)
-  @media (min-width: $breakpoint-xl) {
-    .container {
-      max-width: 1140px;
-    }
+  .main-content {
+    width: 75%; // Adjust main content width when sidebar is visible
+    float: left;
   }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: $breakpoint-lg) {
+  .gallery-item {
+    width: 33.3333%; // 3 columns for gallery items
+    padding: 15px;
+  }
+
+  .container {
+    max-width: 960px; // Adjust container width on large devices
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: $breakpoint-xl) {
+  .container {
+    max-width: 1140px; // Further adjust container width for extra large screens
+  }
+
+  .gallery-item {
+    width: 25%; // 4 columns for gallery items
+  }
+
+  .full-width-section {
+    padding: 60px 0; // Increase padding for full-width sections
+  }
+}
