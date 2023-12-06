@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'jekyll' # or the latest stable version
 gem 'liquid'
 gem 'rack'
-gem 'minima'
+gem "minima"
 
 # If you're using GitHub Pages, you might include:
 gem 'github-pages', group: :jekyll_plugins

@@ -1,4 +1,5 @@
 // _mixins.scss
+@import "variables";
 
 // Mixin for Flexbox Centering
 @mixin flex-center {
@@ -30,10 +31,10 @@
 
 // Mixin for Box Shadow
 @mixin box-shadow($shadow) {
-    -webkit-box-shadow: $shadow;
-    -moz-box-shadow: $shadow;
-    box-shadow: $shadow;
-  }
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  box-shadow: $shadow;
+}
 
 // Mixin for CSS Transitions
 @mixin transition($property, $duration, $timing-function) {
