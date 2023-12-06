@@ -1,7 +1,5 @@
 // _mixins.scss
 
-// _mixins.scss
-
 // Mixin for Flexbox Centering
 @mixin flex-center {
   display: flex;
@@ -30,17 +28,38 @@
   }
 }
 
+// Mixin for Box Shadow
 @mixin box-shadow($shadow) {
     -webkit-box-shadow: $shadow;
     -moz-box-shadow: $shadow;
     box-shadow: $shadow;
   }
 
-  @mixin transition($property, $duration, $timing-function) {
-    -webkit-transition: $property $duration $timing-function;
-    -moz-transition: $property $duration $timing-function;
-    -o-transition: $property $duration $timing-function;
-    transition: $property $duration $timing-function;
-  }
+// Mixin for CSS Transitions
+@mixin transition($property, $duration, $timing-function) {
+  -webkit-transition: $property $duration $timing-function;
+  -moz-transition: $property $duration $timing-function;
+  -o-transition: $property $duration $timing-function;
+  transition: $property $duration $timing-function;
+}
 
-  // More mixins as needed...
+// Mixin for Border Radius
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+// Mixin for Text Truncate
+@mixin text-truncate {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+// Mixin for Background Gradient
+@mixin background-gradient($startColor, $endColor) {
+  background: linear-gradient(to right, $startColor, $endColor);
+}
+
+// More mixins as needed...

@@ -1,54 +1,254 @@
 // _sidebar.scss
 
 .sidebar {
-    background-color: $sidebarBgColor;
-    padding: 1rem;
-    margin-top: 1rem;
+  background-color: $sidebarBgColor;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: $border-radius;
 
-    // Search box styling
-    .search {
-      margin-bottom: 2rem;
-      input[type="text"] {
-        width: 100%;
-        padding: 0.5rem;
-        border: 1px solid $lightGray;
-        border-radius: 4px;
+  // Search box styling
+  .search {
+    margin-bottom: 2rem;
+
+    input[type="text"] {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid $lightGray;
+      border-radius: $border-radius;
+      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+
+      &:focus {
+        outline: none;
+        border-color: $primaryColor;
       }
     }
+  }
 
-    // Recent posts styling
-    .recent-posts {
-      h3 {
-        margin-bottom: 1rem;
-      }
-      ul {
-        list-style: none;
-        padding: 0;
-        li {
-          margin-bottom: 0.5rem;
-          a {
-            text-decoration: none;
-            &:hover {
-              text-decoration: underline;
-            }
+  // Section Titles
+  h3 {
+    color: $darkColor;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  // Recent posts styling
+  .recent-posts {
+    h3 {
+      margin-bottom: 1rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      li {
+        margin-bottom: 0.5rem;
+        a {
+          text-decoration: none;
+          color: $textColor;
+
+          &:hover {
+            text-decoration: underline;
+            color: $primaryColor;
           }
         }
       }
     }
+  }
 
-    // Categories and tags styling
-    .categories, .tags {
-      ul {
-        list-style-type: none;
-        padding: 0;
+  // Categories and tags styling
+  .categories,
+  .tags {
+    ul {
+      list-style-type: none;
+      padding: 0;
+
+      li {
+        margin-bottom: 0.5rem;
+
+        a {
+          text-decoration: none;
+          color: $linkColor;
+
+          &:hover {
+            color: $linkHoverColor;
+          }
+        }
       }
     }
+  }
 
-    // Advertisement styling
-    .ads {
-      margin-top: 2rem;
-      // Style for ad content
+  // Advertisement styling
+  .ads {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: $lightColor;
+    border: 1px solid $lightGray;
+    border-radius: $border-radius;
+    text-align: center;
+
+    // Placeholder for ad content or images
+  }
+
+  // Newsletter Signup Form
+  .newsletter-signup {
+    padding: 1rem;
+    background-color: $lightColor;
+    border: 1px solid $lightGray;
+    border-radius: $border-radius;
+    margin-top: 2rem;
+    text-align: center;
+
+    h4 {
+      margin-bottom: 1rem;
+      color: $darkColor;
     }
 
-    // More sidebar-specific styles...
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+
+      input[type="email"] {
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        border: 1px solid $lightGray;
+        border-radius: $border-radius;
+
+        &:focus {
+          border-color: $primaryColor;
+          outline: none;
+        }
+      }
+
+      button {
+        padding: 0.5rem;
+        border: none;
+        border-radius: $border-radius;
+        background-color: $primaryColor;
+        color: white;
+        cursor: pointer;
+
+        &:hover {
+          background-color: darken($primaryColor, 10%);
+        }
+      }
+    }
   }
+
+  // Tag Cloud
+  .tag-cloud {
+    margin-top: 2rem;
+
+    h4 {
+      margin-bottom: 1rem;
+    }
+
+    .tag {
+      display: inline-block;
+      background-color: $lightGray;
+      color: $darkColor;
+      padding: 0.25rem 0.5rem;
+      margin: 0.25rem;
+      font-size: 0.9rem;
+      border-radius: $border-radius;
+      text-decoration: none;
+
+      &:hover {
+        background-color: $primaryColor;
+        color: white;
+      }
+    }
+  }
+
+  // Social Media Links
+  .social-media {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+
+    a {
+      margin: 0 0.5rem;
+      color: $darkColor;
+      font-size: 1.5rem;
+
+      &:hover {
+        color: $primaryColor;
+      }
+    }
+  }
+    // Featured Content
+    .featured-content {
+      margin-top: 2rem;
+      padding: 1rem;
+      background-color: $lightColor;
+      border: 1px solid $lightGray;
+      border-radius: $border-radius;
+
+      .featured-item {
+          margin-bottom: 1rem;
+
+          h5 {
+              margin-bottom: 0.5rem;
+          }
+
+          p {
+              margin-bottom: 0;
+              font-size: $smallFontSize;
+          }
+      }
+  }
+
+  // Archives List
+  .archives-list {
+      margin-top: 2rem;
+
+      h4 {
+          margin-bottom: 1rem;
+      }
+
+      ul {
+          list-style: none;
+          padding: 0;
+
+          li {
+              margin-bottom: 0.5rem;
+
+              a {
+                  text-decoration: none;
+                  color: $textColor;
+
+                  &:hover {
+                      text-decoration: underline;
+                  }
+              }
+          }
+      }
+  }
+
+  // Custom Widget Area
+  .custom-widget {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: $secondaryColor;
+    color: $lightColor;
+    border-radius: $border-radius;
+    text-align: center;
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    // Example for a button or link in the widget
+    a.button {
+      background-color: $primaryColor;
+      color: white;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      border-radius: $border-radius;
+
+      &:hover {
+        background-color: darken($primaryColor, 10%);
+      }
+    }
+  }
+  // More sidebar-specific styles...
+}
