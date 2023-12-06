@@ -29,12 +29,14 @@ document.addEventListener('DOMContentLoaded', function() {
         item.addEventListener('click', function() {
             var src = this.getAttribute('data-src');
             var lightboxImage = document.getElementById('lightbox-image');
-            if (lightboxImage) {
+            var lightboxContainer = document.getElementById('lightbox-container');
+            if (lightboxImage && lightboxContainer) {
                 lightboxImage.src = src;
-                // Code to show lightbox
+                lightboxContainer.style.display = 'block'; // Show the lightbox
             }
         });
     });
+
     // Initializing Bootstrap Tooltips
     if (window.bootstrap && bootstrap.Tooltip) {
         var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
@@ -63,9 +65,14 @@ document.addEventListener('DOMContentLoaded', function() {
     var loadMoreButton = document.getElementById('load-more');
     if (loadMoreButton) {
         loadMoreButton.addEventListener('click', function() {
-            // Example: Ajax call to load more content
-            // Fetch more data and append it to the DOM
-            console.log('Load more content here...');
+            // Example: Fetch more data using Ajax and append it to the DOM
+            fetch('path/to/more/content').then(function(response) {
+                return response.text();
+            }).then(function(html) {
+                document.getElementById('content-container').innerHTML += html;
+            }).catch(function(err) {
+                console.warn('Something went wrong.', err);
+            });
         });
     }
 
@@ -74,10 +81,10 @@ document.addEventListener('DOMContentLoaded', function() {
     if (myCarousel) {
         myCarousel.addEventListener('slide.bs.carousel', function (e) {
             console.log('Carousel slide event!');
+            console.log('Carousel is sliding to ' + e.to);
             // Additional carousel handling code
         });
     }
-
 
     // Form Validation before Submit
     var form = document.getElementById('contact-form');
@@ -97,6 +104,9 @@ document.addEventListener('DOMContentLoaded', function() {
         loadScriptButton.addEventListener('click', function() {
             var script = document.createElement('script');
             script.src = 'path/to/your/dynamic/script.js';
+            script.onload = function() {
+                console.log('Script loaded and ready');
+            };
             document.head.appendChild(script);
         });
     }
@@ -106,6 +116,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (darkModeToggle) {
         darkModeToggle.addEventListener('click', function() {
             document.body.classList.toggle('dark-mode');
+            localStorage.setItem('darkMode', document.body.classList.contains('dark-mode'));
             // Save preference in local storage or handle theme switching logic
         });
     }
@@ -147,21 +158,81 @@ document.addEventListener('DOMContentLoaded', function() {
         if (loadOnScrollElement && window.scrollY + window.innerHeight >= loadOnScrollElement.offsetTop) {
             // Load content dynamically or display additional content
             console.log('Load dynamic content here');
+            // Example: Similar to 'load more' functionality
         }
     });
 
-    // Tooltips Initialization (If Bootstrap is not used)
-    // If you are not using Bootstrap, you can initialize tooltips manually
-    const tooltips = document.querySelectorAll('.tooltip');
-    tooltips.forEach(tooltip => {
-        tooltip.addEventListener('mouseover', function() {
-            // Show tooltip logic
-        });
-        tooltip.addEventListener('mouseout', function() {
-            // Hide tooltip logic
+    // // Tooltips Initialization (If Bootstrap is not used)
+    // // If you are not using Bootstrap, you can initialize tooltips manually
+    // const tooltips = document.querySelectorAll('.tooltip');
+    // tooltips.forEach(tooltip => {
+    //     tooltip.addEventListener('mouseover', function() {
+    //         const tooltipText = this.getAttribute('data-tooltip');
+    //         // Show tooltip logic
+    //     });
+    //     tooltip.addEventListener('mouseout', function() {
+    //         // Hide tooltip logic
+    //     });
+    // });
+
+    // Sticky Navigation on Scroll
+    const header = document.querySelector('.site-header');
+    window.addEventListener('scroll', () => {
+        if(window.scrollY > 100) {
+            header.classList.add('sticky');
+        } else {
+            header.classList.remove('sticky');
+        }
+    });
+
+    // Back to Top Button
+    const backToTopButton = document.querySelector('#back-to-top');
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+            backToTopButton.style.display = 'block';
+        } else {
+            backToTopButton.style.display = 'none';
+        }
+    });
+    backToTopButton.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Toggle Class for Elements on Click
+    document.querySelectorAll('.toggle-class-trigger').forEach(trigger => {
+        trigger.addEventListener('click', () => {
+            document.querySelector(trigger.getAttribute('data-target')).classList.toggle('active');
         });
     });
 
-    // More custom JavaScript code
-    // ...
+    // Lazy Loading Images
+    if ('IntersectionObserver' in window) {
+        const imageObserver = new IntersectionObserver((entries, imgObserver) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const lazyImage = entry.target;
+                    lazyImage.src = lazyImage.dataset.src;
+                    imgObserver.unobserve(lazyImage);
+                }
+            });
+        });
+
+        document.querySelectorAll('img.lazy').forEach(img => {
+            imageObserver.observe(img);
+        });
+    }
+
+    // Accordion Functionality
+    document.querySelectorAll('.accordion-item').forEach(item => {
+        item.querySelector('.accordion-header').addEventListener('click', () => {
+            item.classList.toggle('open');
+            const panel = item.querySelector('.accordion-panel');
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + 'px';
+            }
+        });
+    });
+
 });

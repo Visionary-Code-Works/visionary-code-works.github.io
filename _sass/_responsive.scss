@@ -1,0 +1,33 @@
+// _responsive.scss
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: $breakpoint-sm) {
+    .navbar {
+      // Custom styles for mobile nav
+    }
+
+    .hero-section {
+      padding: 2rem 1rem;
+    }
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: $breakpoint-md) {
+    .sidebar {
+      // Styles for sidebar on tablet
+    }
+  }
+
+  // Large devices (desktops, 992px and up)
+  @media (min-width: $breakpoint-lg) {
+    .gallery-item {
+      // Styles for gallery items on desktop
+    }
+  }
+
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: $breakpoint-xl) {
+    .container {
+      max-width: 1140px;
+    }
+  }
