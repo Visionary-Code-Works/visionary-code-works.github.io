@@ -2,7 +2,7 @@
 
 Welcome to the repository for VCWTech. This site is built with [Jekyll](https://jekyllrb.com/), a static site generator, and styled using [Bootstrap](https://getbootstrap.com/) (included via CDN). It's automatically built and deployed using GitHub Actions.
 
-[![Auto Update Changelog](https://github.com/Visionary-Code-Works/vcwtech.github.io/actions/workflows/changelog.yml/badge.svg)](https://github.com/Visionary-Code-Works/vcwtech.github.io/actions/workflows/changelog.yml)
+[![Auto Update Changelog](https://github.com/Visionary-Code-Works/vcwtech.github.io/actions/workflows/changelog.yml/badge.svg)](https://github.com/Visionary-Code-Works/vcwtech.github.io/actions/workflows/changelog.yml)  [![Build and deploy Jekyll site](https://github.com/Visionary-Code-Works/vcwtech.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/Visionary-Code-Works/vcwtech.github.io/actions/workflows/jekyll.yml)  [![pages-build-deployment](https://github.com/Visionary-Code-Works/vcwtech.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Visionary-Code-Works/vcwtech.github.io/actions/workflows/pages/pages-build-deployment)
 
 ## Features
 
