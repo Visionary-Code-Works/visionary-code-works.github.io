@@ -291,15 +291,11 @@ PLATFORMS
 DEPENDENCIES
   faraday-retry
   github-pages
-  jekyll
   jekyll-admin (~> 0.11.1)
   jekyll-feed
   jekyll-paginate
   jekyll-seo-tag
   jekyll-sitemap
-  liquid
-  minima
-  rack
   webrick
 
 BUNDLED WITH
