@@ -7,7 +7,6 @@ email: thaddeus.r.thomas@gmail.com           # your-email@domain.com
 
 # Build settings
 markdown: kramdown
-theme: vcw-style
 plugins:
   - jekyll-feed
   - jekyll-sitemap
