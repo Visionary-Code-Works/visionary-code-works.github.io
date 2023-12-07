@@ -9,8 +9,14 @@ main:
     url: /portfolio/
   - title: Contact
     url: /contact/
+  - title: Services
+    url: /services/
+  - title: FAQ
+    url: /faq/
 
 footer:
+  - title: Contact
+    url: /contact/
   - title: Privacy Policy
     url: /privacy-policy/
   - title: Terms of Service

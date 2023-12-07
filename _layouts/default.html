@@ -6,7 +6,6 @@
   <title>{{ page.title | escape }} - {{ site.title | escape }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/css/bootstrap.min.css">
 
   {% include seo.html %} <!-- SEO Tags -->
@@ -17,11 +16,11 @@
   {% include header.html %} <!-- Site Header -->
   {% include navigation.html %} <!-- Navigation Menu -->
 
+  {% include sidebar.html %} <!-- Sidebar Content -->
+
   <main role="main" class="container">
     {{ content }} <!-- Main Content of the Page -->
   </main>
-
-  {% include sidebar.html %} <!-- Sidebar Content -->
 
   {% include footer.html %} <!-- Site Footer -->
   {% include social-links.html %} <!-- Social Media Links -->

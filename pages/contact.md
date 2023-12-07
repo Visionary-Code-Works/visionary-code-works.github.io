@@ -10,7 +10,7 @@ Thank you for your interest in Visionary Code Works. If you have any questions, 
 
 We value your input and are ready to assist you. Here's how you can reach us:
 
-- **Email**: Feel free to send us an email at [your-email@domain.com](mailto:your-email@domain.com) for general inquiries or support. We aim to respond within 24 hours.
+- **Email**: Feel free to send us an email at [contactus@vcwtech.com](mailto:contactus@vcwtech.com) for general inquiries or support. We aim to respond within 24 hours.
 
 - **Phone**: For immediate assistance, call us at [`Your Phone Number`]. Our customer service team is available from 9 am to 5 pm, Monday to Friday.
 
@@ -24,8 +24,6 @@ Stay updated with our latest news, updates, and offerings through our social med
 - [Twitter](#)
 - [LinkedIn](#)
 - [Instagram](#)
-
-[Replace `#` with the URLs to your social media profiles.]
 
 ## Contact Form
 
@@ -46,7 +44,7 @@ Use the form below to send us a message directly. We'll get back to you as soon 
     <textarea id="message" name="message" required></textarea>
 
     <!-- Hidden field to help Formspree identify the form -->
-    <input type="hidden" name="_next" value="https://yourdomain.com/thank-you" />
+    <input type="hidden" name="_next" value="https://visionary-code-works.github.io/thank-you" />
 
     <button type="submit">Send Message</button>
 </form>
