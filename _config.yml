@@ -7,7 +7,7 @@ email: thaddeus.r.thomas@gmail.com           # your-email@domain.com
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: vcw-style
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -83,7 +83,7 @@ date_format: '%b %-d, %Y'
 defaults:
   -
     scope:
-      path: ".github/front_matter.yml"
+      path: "/.github/front_matter.yml"
       type: "posts"
     values:
       layout: "post"
