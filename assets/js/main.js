@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (loadScriptButton) {
         loadScriptButton.addEventListener('click', function() {
             var script = document.createElement('script');
-            script.src = 'path/to/your/dynamic/script.js';
+            script.src = '/assets/js/custom.js';
             script.onload = function() {
                 console.log('Script loaded and ready');
             };

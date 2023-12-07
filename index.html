@@ -4,73 +4,66 @@ layout: default
 
 <!-- Main Content of the Homepage -->
 <div class="container">
-    <!-- Hero Section -->
-    <section class="hero">
-        <h1>Welcome to Visionary Code Works</h1>
-        <p>Leading the way in innovative digital solutions.</p>
-    </section>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to Visionary Code Works</h1>
+    <p>Leading the way in innovative digital solutions.</p>
+  </section>
 
-    <!-- Features Section -->
-    <section class="features">
-        <h2>Our Services</h2>
-        <div class="row">
-            <div class="feature-card">
-                <div class="card-content">
-                    <h3>Web Development</h3>
-                    <p>Creating modern, responsive, and effective websites.</p>
-                </div>
-            </div>
-            <div class="feature-card">
-                <div class="card-content">
-                    <h3>UI/UX Design</h3>
-                    <p>Designing intuitive and user-friendly interfaces.</p>
-                </div>
-            </div>
-            <div class="feature-card">
-                <div class="card-content">
-                    <h3>Digital Marketing</h3>
-                    <p>Strategies that elevate your brand's online presence.</p>
-                </div>
-            </div>
+  <!-- Features Section -->
+  <section class="features">
+    <h2>Our Services</h2>
+    <div class="row">
+      <div class="feature-card">
+        <div class="card-content">
+          <h3>Web Development</h3>
+          <p>Creating modern, responsive, and effective websites.</p>
         </div>
-    </section>
-
-    <!-- Recent Blog Posts Section -->
-    <section class="recent-posts">
-        <h2>From Our Blog</h2>
-        <ul>
-            {% for post in site.posts limit:3 %}
-            <li>
-                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                <p>{{ post.excerpt }}</p>
-            </li>
-            {% endfor %}
-        </ul>
-        <a href="/blog/">View all posts</a>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="testimonials">
-        <h2>Client Testimonials</h2>
-        <div class="testimonial">
-            <blockquote>"Visionary Code Works helped us transform our online presence with their innovative solutions."</blockquote>
-            <cite>- Happy Client</cite>
+      </div>
+      <div class="feature-card">
+        <div class="card-content">
+          <h3>UI/UX Design</h3>
+          <p>Designing intuitive and user-friendly interfaces.</p>
         </div>
-        <!-- Additional testimonials -->
-    </section>
+      </div>
+      <div class="feature-card">
+        <div class="card-content">
+          <h3>Digital Marketing</h3>
+          <p>Strategies that elevate your brand's online presence.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Call to Action Section -->
-    <section class="call-to-action">
-        <h2>Start Your Project with Us</h2>
-        <p>Contact us today to discuss how we can help bring your vision to life.</p>
-        <a href="/contact/" class="btn">Contact Us</a>
-    </section>
+  <!-- Recent Blog Posts Section -->
+  <section class="recent-posts">
+    <h2>From Our Blog</h2>
+    <ul>
+      {% for post in site.posts limit:3 %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <p>{{ post.excerpt }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+    <a href="/blog/">View all posts</a>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonialsCarousel" class="carousel slide" data-ride="carousel">
+    <h2>Client Testimonials</h2>
+    <div class="testimonial">
+      <blockquote>"Visionary Code Works helped us transform our online presence with their innovative solutions."
+      </blockquote>
+      <cite>- Happy Client</cite>
+    </div>
+    <!-- Additional testimonials -->
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="call-to-action">
+    <h2>Start Your Project with Us</h2>
+    <p>Contact us today to discuss how we can help bring your vision to life.</p>
+    <a href="/contact/" class="btn">Contact Us</a>
+  </section>
 </div>
-<!-- Sidebar included from _includes/sidebar.html -->
-<!--
-<aside class="sidebar">
-    {% include sidebar.html %}
-</aside>
- -->
-
- <!-- <script src="{{ '/assets/js/main.js' | relative_url }}"></script> -->
