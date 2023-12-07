@@ -71,10 +71,3 @@ This site is automatically built and deployed by GitHub Actions when changes are
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-### Notes
-
-- Make sure to replace `https://github.com/yourusername/my-jekyll-site.git` with your actual repository URL.
-- Update the Ruby version in the prerequisites if different from what's used in your project.
-- Customize any part of the README to better fit the specifics of your site or add additional sections as necessary, like a section for 'Tests' if you have automated testing set up.
-- Consider adding a `CONTRIBUTING.md` file with detailed contribution guidelines, and a `LICENSE` file, especially if your project is open source.
