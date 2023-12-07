@@ -26,7 +26,7 @@ Our services range from **web development** and **UI/UX design** to **digital ma
 
 This blog will serve as a platform to share our insights, experiences, and stories from the tech world. Expect articles on the latest trends, tips, case studies, and much more.
 
-### Stay Tuned!
+### Stay Tuned
 
 We invite you to join us on this exciting journey. Stay tuned for regular updates, and don't hesitate to reach out to us with any questions or project inquiries.
 

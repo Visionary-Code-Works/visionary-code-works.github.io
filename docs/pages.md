@@ -1,4 +1,4 @@
-### Documentation for the `pages` Directory
+# Documentation for the `pages` Directory
 
 **Overview:**
 The `pages` directory in this Jekyll site contains individual Markdown (.md) files that represent different static pages of the website. Each file is written in Markdown format and contains YAML front matter for specifying metadata like layout, title, and permalink.
