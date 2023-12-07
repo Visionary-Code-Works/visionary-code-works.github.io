@@ -91,9 +91,9 @@ defaults:
 
 # Social Media Links
 social_links:
-  twitter: @ThaddeusMaxima
+  twitter: https://twitter.com/ThaddeusMaxima/
   # facebook: yourfacebookpage
-  github: thomasthaddeus
+  github: https://github.com/thomasthaddeus/
   linkedin: https://linkedin.com/in/
 
 # Footer settings
