@@ -1,0 +1,23 @@
+// _sass/_navigation.scss
+.site-navigation {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; // Centers the menu items horizontally
+
+    li {
+      margin-right: 20px; // Adds spacing between menu items
+
+      &:last-child {
+        margin-right: 0; // Removes right margin from the last item
+      }
+
+      a {
+        text-decoration: none;
+        color: #333; // Change the color as needed
+      }
+    }
+  }
+}

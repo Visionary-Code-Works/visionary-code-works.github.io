@@ -1,10 +1,6 @@
 ---
 layout: default
-title: Home
 ---
-
-<!-- Header included from _includes/header.html -->
-{% include header.html %}
 
 <!-- Main Content of the Homepage -->
 <div class="container">
@@ -18,17 +14,23 @@ title: Home
     <section class="features">
         <h2>Our Services</h2>
         <div class="row">
-            <div class="feature-item">
-                <h3>Web Development</h3>
-                <p>Creating modern, responsive, and effective websites.</p>
+            <div class="feature-card">
+                <div class="card-content">
+                    <h3>Web Development</h3>
+                    <p>Creating modern, responsive, and effective websites.</p>
+                </div>
             </div>
-            <div class="feature-item">
-                <h3>UI/UX Design</h3>
-                <p>Designing intuitive and user-friendly interfaces.</p>
+            <div class="feature-card">
+                <div class="card-content">
+                    <h3>UI/UX Design</h3>
+                    <p>Designing intuitive and user-friendly interfaces.</p>
+                </div>
             </div>
-            <div class="feature-item">
-                <h3>Digital Marketing</h3>
-                <p>Strategies that elevate your brand's online presence.</p>
+            <div class="feature-card">
+                <div class="card-content">
+                    <h3>Digital Marketing</h3>
+                    <p>Strategies that elevate your brand's online presence.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -64,14 +66,11 @@ title: Home
         <a href="/contact/" class="btn">Contact Us</a>
     </section>
 </div>
-
 <!-- Sidebar included from _includes/sidebar.html -->
+<!--
 <aside class="sidebar">
     {% include sidebar.html %}
 </aside>
+ -->
 
-<!-- Footer included from _includes/footer.html -->
-{% include footer.html %}
-
-<!-- Custom JS -->
-<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+ <!-- <script src="{{ '/assets/js/main.js' | relative_url }}"></script> -->

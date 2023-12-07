@@ -1,13 +1,12 @@
 title: Visionary Code Works
 description: >- # this means to ignore newlines until "baseurl:"
   Visionary Code Works is a cutting-edge technology and design company specializing in innovative digital solutions. Our mission is to create impactful and user-friendly digital experiences that drive growth and efficiency.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://visionary-code-works.github.io/vcwtech.github.io/" # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://visionary-code-works.github.io/" # the base hostname & protocol for your site
 email: thaddeus.r.thomas@gmail.com           # your-email@domain.com
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -83,7 +82,7 @@ date_format: '%b %-d, %Y'
 defaults:
   -
     scope:
-      path: ".github/front_matter.yml"
+      path: "/.github/front_matter.yml"
       type: "posts"
     values:
       layout: "post"
