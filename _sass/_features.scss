@@ -33,3 +33,33 @@
     flex-basis: 100%;
   }
 }
+
+.feature-card-link {
+  text-decoration: none; // Removes underline from links
+  color: inherit; // Inherits text color to keep consistent styling
+
+  &:hover .feature-card {
+    // Add hover effects as needed
+
+    // Change background color on hover
+    background-color: darken(#ddd, 10%); // Darkens the background color
+
+    // Add a border on hover
+    // border: 1px solid darken(#ddd, 10%);
+
+    // Scale effect
+    // transform: scale(1.05);
+    // transition: transform 0.3s ease;
+
+    // Shadow effect
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); // Increased shadow for depth
+
+    // Opacity change
+    // opacity: 0.9;
+
+    // Text color change
+    .card-content h3 {
+      color: #007bff; // Example color change for text
+    }
+  }
+}

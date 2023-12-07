@@ -5,6 +5,7 @@ date: 2023-12-06
 author: Thaddeus Thomas
 categories: [General, Announcements]
 tags: [introduction, technology, innovation]
+comments: true
 ---
 
 We are thrilled to launch the official blog of **Visionary Code Works**, a place where innovation meets technology. Our mission is to provide cutting-edge solutions and insights into the ever-evolving world of tech.

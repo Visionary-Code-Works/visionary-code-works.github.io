@@ -25,7 +25,7 @@ google_analytics: G-QH33T8MYJZ
 
 # Optional comments
 disqus:
-  shortname: your-disqus-shortname
+  shortname: disqus_CVOsT8zF7j
 
 # Build optimizations
 exclude:
@@ -78,10 +78,16 @@ lang: en
 date_format: '%b %-d, %Y'
 
 # Default Front Matter
-# Optional feature images for posts
 defaults:
-  -
-    scope:
+  - scope:
+      path: "/"
+      type: "pages"
+    values:
+      layout: "home"
+
+
+  # Optional feature images for posts
+  - scope:
       path: "/.github/front_matter.yml"
       type: "posts"
     values:

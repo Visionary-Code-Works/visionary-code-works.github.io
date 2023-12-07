@@ -1,21 +1,92 @@
 ---
 layout: default
 ---
-<div class="home">
-    <section class="intro">
-        <h2>Welcome to {{ site.title }}</h2>
-        <p>{{ site.description }}</p>
-    </section>
-    <section class="recent-posts">
-        <h2>Recent Posts</h2>
-        <ul class="post-list">
-            {% for post in site.posts limit:5 %}
-            <li>
-                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                <small class="post-date">{{ post.date | date: "%b %-d, %Y" }}</small>
-            </li>
-            {% endfor %}
-        </ul>
-    </section>
-    <!-- Additional sections as needed -->
-</div>
+
+<!-- Hero Section -->
+<section class="intro">
+  <h2>Welcome to {{ site.title }}</h2>
+  <p>{{ site.description }}</p>
+</section>
+
+<!-- Features Section -->
+<section class="features">
+  <h2>Our Services</h2>
+  <div class="row">
+    <!-- Web Development Card -->
+    <a href="/_posts/2023-12-07-FeatureWebDevelopment" class="feature-card-link">
+      <div class="feature-card">
+        <div class="card-content">
+          <h3>Web Development</h3>
+          <p>Creating modern, responsive, and effective websites.</p>
+        </div>
+      </div>
+    </a>
+
+    <!-- UI/UX Design Card -->
+    <a href="/_posts/2023-12-07-FeatureUI-UXDesign" class="feature-card-link">
+      <div class="feature-card">
+        <div class="card-content">
+          <h3>UI/UX Design</h3>
+          <p>Designing intuitive and user-friendly interfaces.</p>
+        </div>
+      </div>
+    </a>
+
+    <!-- Digital Marketing Card -->
+    <a href="/_posts/2023-12-07-FeatureDigitalMarketing" class="feature-card-link">
+      <div class="feature-card">
+        <div class="card-content">
+          <h3>Digital Marketing</h3>
+          <p>Strategies that elevate your brand's online presence.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- Testimonials Carousel from  -->
+<section id="testimonialsCarousel" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <blockquote>"First testimonial text here."</blockquote>
+      <cite>- First Client</cite>
+    </div>
+    <div class="carousel-item">
+      <blockquote>"Second testimonial text here."</blockquote>
+      <cite>- Second Client</cite>
+    </div>
+    <!-- Add more carousel-item divs as needed -->
+  </div>
+  <a class="carousel-control-prev" href="#testimonialsCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#testimonialsCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</section>
+
+<!-- Call to Action Section -->
+<section class="call-to-action">
+  <h2>Start Your Project with Us</h2>
+  <p>Contact us today to discuss how we can help bring your vision to life.</p>
+  <a href="/contact/" class="btn">Contact Us</a>
+</section>
+
+<!-- Recent Blog Posts Section (Merged) -->
+<section class="recent-posts">
+  <h2>From Our Blog</h2>
+  <ul>
+    {% for post in site.posts limit:3 %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <small class="post-date">{{ post.date | date: "%b %-d, %Y" }}</small>
+      <p>{{ post.excerpt }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+  <a href="/_posts/">View all posts</a>
+</section>
+
+<!-- Additional sections from home.html if needed -->

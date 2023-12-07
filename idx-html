@@ -5,9 +5,9 @@ layout: default
 <!-- Main Content of the Homepage -->
 <div class="container">
   <!-- Hero Section -->
-  <section class="hero">
-    <h1>Welcome to Visionary Code Works</h1>
-    <p>Leading the way in innovative digital solutions.</p>
+  <section class="intro">
+    <h2>Welcome to {{ site.title }}</h2>
+    <p>{{ site.description }}</p>
   </section>
 
   <!-- Features Section -->
@@ -49,15 +49,26 @@ layout: default
     <a href="/_posts/">View all posts</a>
   </section>
 
-  <!-- Testimonials Section -->
   <section id="testimonialsCarousel" class="carousel slide" data-ride="carousel">
-    <h2>Client Testimonials</h2>
-    <div class="testimonial">
-      <blockquote>"Visionary Code Works helped us transform our online presence with their innovative solutions."
-      </blockquote>
-      <cite>- Happy Client</cite>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <blockquote>"First testimonial text here."</blockquote>
+        <cite>- First Client</cite>
+      </div>
+      <div class="carousel-item">
+        <blockquote>"Second testimonial text here."</blockquote>
+        <cite>- Second Client</cite>
+      </div>
+      <!-- Add more carousel-item divs as needed -->
     </div>
-    <!-- Additional testimonials -->
+    <a class="carousel-control-prev" href="#testimonialsCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#testimonialsCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </section>
 
   <!-- Call to Action Section -->
