@@ -1,0 +1,17 @@
+- title: "Test Blog Post"
+  author: "Jane Doe"
+  date: "2023-01-01"
+  excerpt: "This is a test blog post used for layout testing."
+  url: "/test-post"
+
+- title: "Sample Product"
+  description: "A sample product description for layout testing in e-commerce templates."
+  price: "29.99"
+  image: "/assets/images/sample_product.jpg"
+
+- title: "Mock Event"
+  date: "2023-02-15"
+  location: "Test City"
+  description: "This is a mock event used for testing the event listing layout."
+
+# Add more test data entries as needed

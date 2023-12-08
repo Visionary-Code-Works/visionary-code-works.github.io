@@ -1,0 +1,16 @@
+- name: "Innovative Tech Ltd."
+  description: "A leading provider of tech solutions."
+  logo: /assets/images/clients/innovative_tech_logo.png
+  website: https://www.innovativetech.com
+
+- name: "Green Energy Corp."
+  description: "Pioneers in sustainable energy technologies."
+  logo: /assets/images/clients/green_energy_logo.png
+  website: https://www.greenenergycorp.com
+
+- name: "Creative Designs Studio"
+  description: "Award-winning design studio known for its creative excellence."
+  logo: /assets/images/clients/creative_designs_logo.png
+  website: https://www.creativedesigns.com
+
+# Add more client or partner entries as needed

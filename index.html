@@ -41,3 +41,72 @@ layout: default
 </section>
 
 <!-- Additional Custom Sections as needed -->
+
+---
+
+---
+layout: default
+---
+
+<!-- Personalized Welcome Section -->
+<section class="welcome-message">
+  <h1>Welcome to Visionary Code Works!</h1>
+  <p>Discover innovative solutions tailored for your digital success.</p>
+</section>
+
+<!-- Features Section -->
+<section class="features">
+  <h2>Our Services</h2>
+  <div class="row">
+    <!-- Web Development Card -->
+    <a href="/2023-12-07-FeatureWebDevelopment" class="feature-card-link">
+      <div class="feature-card">
+        <div class="card-content">
+          <h3>Web Development</h3>
+          <p>Creating modern, responsive, and effective websites.</p>
+        </div>
+      </div>
+    </a>
+    <!-- Additional cards for UI/UX Design and Digital Marketing -->
+  </div>
+</section>
+
+<!-- Interactive Elements Section -->
+<section class="interactive-elements">
+  <!-- Content such as interactive infographics or a video presentation about your services -->
+</section>
+
+<!-- Testimonials Carousel -->
+<section id="testimonialsCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Carousel content -->
+</section>
+
+<!-- Custom Section: Latest Projects or Featured Works -->
+<section class="latest-projects">
+  <h2>Featured Projects</h2>
+  <!-- Showcase of recent projects or portfolio highlights -->
+</section>
+
+<!-- Call to Action Section -->
+<section class="call-to-action">
+  <h2>Start Your Project with Us</h2>
+  <p>Contact us today to discuss how we can help bring your vision to life.</p>
+  <a href="/contact/" class="btn">Contact Us</a>
+</section>
+
+<!-- Blog Highlights Section -->
+<section class="blog-highlights">
+  <h2>Latest Insights</h2>
+  <ul>
+    {% for post in site.posts limit:3 %}
+      <!-- Blog post previews -->
+    {% endfor %}
+  </ul>
+  <a href="/blog/" class="more-link">View All Blog Posts</a>
+</section>
+
+<!-- Additional Custom Sections -->
+<!-- Here you can add more sections like 'Our Team', 'Client Success Stories', 'Upcoming Events' etc. -->
+
+<!-- Footer Section -->
+{% include footer.html %}

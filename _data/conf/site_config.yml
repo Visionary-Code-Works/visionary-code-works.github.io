@@ -1,0 +1,19 @@
+theme_color: "#0055aa"
+feature_toggles:
+  enable_blog: true
+  enable_e_commerce: false
+  show_testimonials: true
+api_keys:
+  google_maps: "YOUR_GOOGLE_MAPS_API_KEY"
+  mailchimp: "YOUR_MAILCHIMP_API_KEY"
+contact_info:
+  email: contact@yourdomain.com
+  phone: "+1234567890"
+analytics:
+  google_analytics: "UA-XXXXX-Y"
+social_media:
+  facebook: "https://www.facebook.com/yourpage"
+  twitter: "https://twitter.com/yourprofile"
+  instagram: "https://www.instagram.com/yourprofile"
+
+# Add additional configuration parameters as needed

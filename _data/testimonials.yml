@@ -1,0 +1,11 @@
+- author: Emily Johnson
+  role: CEO at TechCorp
+  testimonial: "Visionary Code Works delivered exceptional quality and service. Their attention to detail and dedication to our project was outstanding."
+  image: /assets/images/testimonials/emily_johnson.jpg
+
+- author: Michael Smith
+  role: Marketing Director at Innovate Inc.
+  testimonial: "The team at Visionary Code Works are true professionals. They helped us revamp our digital marketing strategy with great success."
+  image: /assets/images/testimonials/michael_smith.jpg
+
+# Add more testimonials as needed

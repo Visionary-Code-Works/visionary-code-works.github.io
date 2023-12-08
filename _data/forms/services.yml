@@ -1,0 +1,17 @@
+- title: "Web Development"
+  description: "Full-stack development services to build responsive and efficient websites."
+  icon: fa-code
+
+- title: "Graphic Design"
+  description: "Creative design solutions for digital and print media."
+  icon: fa-paint-brush
+
+- title: "Digital Marketing"
+  description: "Comprehensive digital marketing strategies to enhance your online presence."
+  icon: fa-bullhorn
+
+- title: "Consulting"
+  description: "Expert consulting services to help you optimize your business operations."
+  icon: fa-handshake
+
+# Add more services as needed

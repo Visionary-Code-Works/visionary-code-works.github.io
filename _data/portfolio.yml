@@ -1,0 +1,16 @@
+- title: "Revolutionary Web App"
+  description: "A web application that transformed the way businesses interact with their customers."
+  image: /assets/images/portfolio/web_app.jpg
+  link: /portfolio/revolutionary-web-app
+
+- title: "E-commerce Platform Redesign"
+  description: "Complete overhaul of an existing e-commerce platform to improve user experience and sales."
+  image: /assets/images/portfolio/ecommerce_redesign.jpg
+  link: /portfolio/ecommerce-platform-redesign
+
+- title: "Mobile App for Finance Management"
+  description: "Innovative mobile application designed to simplify personal finance management."
+  image: /assets/images/portfolio/finance_app.jpg
+  link: /portfolio/finance-management-app
+
+# Add more project entries as needed

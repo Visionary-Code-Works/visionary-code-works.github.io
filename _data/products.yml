@@ -1,0 +1,19 @@
+- name: "Super Widget"
+  description: "The latest in widget technology, ensuring high performance and reliability."
+  price: "99.99"
+  image: /assets/images/products/super_widget.jpg
+  category: "Widgets"
+
+- name: "Gadget Pro"
+  description: "A multifunctional gadget designed for the tech-savvy user."
+  price: "149.99"
+  image: /assets/images/products/gadget_pro.jpg
+  category: "Gadgets"
+
+- name: "Innovative Thingamajig"
+  description: "Redefining convenience with our innovative thingamajig."
+  price: "59.99"
+  image: /assets/images/products/thingamajig.jpg
+  category: "Accessories"
+
+# Add more product entries as needed

@@ -1,0 +1,19 @@
+- title: "Tech Conference 2023"
+  date: "2023-05-15"
+  location: "New York City, NY"
+  description: "Join us for the annual Tech Conference with keynote speakers from the industry."
+  link: /events/tech-conference-2023
+
+- title: "Web Development Workshop"
+  date: "2023-06-20"
+  location: "Online"
+  description: "A hands-on workshop for aspiring web developers covering the latest web technologies."
+  link: /events/web-dev-workshop
+
+- title: "Networking Event for Startups"
+  date: "2023-07-10"
+  location: "San Francisco, CA"
+  description: "An evening of networking with some of the most innovative startups and entrepreneurs."
+  link: /events/startup-networking
+
+# Add more events as needed

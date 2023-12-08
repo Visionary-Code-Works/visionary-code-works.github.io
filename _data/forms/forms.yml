@@ -1,0 +1,25 @@
+contact_form:
+  fields:
+    - name: "name"
+      type: "text"
+      placeholder: "Your Name"
+      required: true
+    - name: "email"
+      type: "email"
+      placeholder: "Your Email"
+      required: true
+    - name: "message"
+      type: "textarea"
+      placeholder: "Your Message"
+      required: true
+  submit_button: "Send Message"
+
+newsletter_signup:
+  fields:
+    - name: "email"
+      type: "email"
+      placeholder: "Enter your email"
+      required: true
+  submit_button: "Subscribe"
+
+# Add more form configurations as needed
