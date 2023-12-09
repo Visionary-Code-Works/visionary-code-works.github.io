@@ -18,7 +18,7 @@ seo:
   description: 'Visionary Code Works is at the forefront of technological innovation, offering a wide range of services from web development to digital marketing strategies. We empower businesses to achieve their digital aspirations.'
   twitter:
     username: thomasthaddeus
-  og_image: '/assets/img/thad.jpg'
+  og_image: '/assets/img/site-logo.jpg'
 
 # Optional analytics
 google_analytics: G-QH33T8MYJZ
@@ -80,7 +80,7 @@ date_format: '%b %-d, %Y'
 # Default Front Matter
 defaults:
   - scope:
-      path: "/"
+      path: "/home"
       type: "pages"
     values:
       layout: "home"
