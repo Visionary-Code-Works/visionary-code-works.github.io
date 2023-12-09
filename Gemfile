@@ -1,9 +1,11 @@
 source 'https://rubygems.org'
 
 # Jekyll
-# gem 'jekyll'
-# gem 'liquid'
-# gem 'rack'
+gem 'jekyll'
+gem 'liquid'
+gem 'rack'
+gem 'webrick'
+gem 'faraday-retry'
 
 # If you're using GitHub Pages, you might include:
 gem 'github-pages', group: :jekyll_plugins
@@ -14,8 +16,6 @@ gem 'jekyll-feed'       # for RSS feed generation
 gem 'jekyll-sitemap'     # for creating a sitemap
 gem 'jekyll-seo-tag'     # for SEO enhancements
 gem 'jekyll-paginate'
-gem 'webrick'
-gem 'faraday-retry'
 
 # For development and testing
 group :jekyll_plugins do

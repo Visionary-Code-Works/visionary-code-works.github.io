@@ -9,3 +9,15 @@
   image: /assets/images/testimonials/michael_smith.jpg
 
 # Add more testimonials as needed
+
+- text: "First testimonial text here."
+  author: "First Client"
+
+- text: "Second testimonial text here."
+  author: "Second Client"
+
+- text: "Third testimonial text here."
+  author: "Third Client"
+
+- text: "Fourth testimonial text here."
+  author: "Fourth Client"

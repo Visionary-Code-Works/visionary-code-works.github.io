@@ -8,68 +8,8 @@ layout: default
   <p>Discover innovative solutions tailored for your digital success.</p>
 </section>
 
-<!-- Include the Features Section from home.html -->
-{% include features-section.html %}
-
-<!-- Custom Interactive Elements -->
-<div class="interactive-element">
-  <!-- Slideshow, video, or other interactive content -->
-</div>
-
-<!-- SEO Specific Content -->
-<meta name="description" content="Visionary Code Works - Your Partner in Digital Innovation">
-
-<!-- Dynamic Latest Projects Section -->
-<section class="latest-projects">
-  <h2>Our Latest Projects</h2>
-  <!-- Content showcasing latest projects -->
-</section>
-
-<!-- Testimonials Carousel -->
-{% include testimonials-carousel.html %}
-
-<!-- Strong Call to Action -->
-<section class="cta">
-  <h2>Ready to Transform Your Business?</h2>
-  <a href="/contact/" class="btn">Get Started</a>
-</section>
-
-<!-- Blog Posts Section -->
-<section class="blog-highlights">
-  <h2>Insights from Our Blog</h2>
-  {% include recent-posts.html %}
-</section>
-
-<!-- Additional Custom Sections as needed -->
-
----
-
----
-layout: default
----
-
-<!-- Personalized Welcome Section -->
-<section class="welcome-message">
-  <h1>Welcome to Visionary Code Works!</h1>
-  <p>Discover innovative solutions tailored for your digital success.</p>
-</section>
-
 <!-- Features Section -->
-<section class="features">
-  <h2>Our Services</h2>
-  <div class="row">
-    <!-- Web Development Card -->
-    <a href="/2023-12-07-FeatureWebDevelopment" class="feature-card-link">
-      <div class="feature-card">
-        <div class="card-content">
-          <h3>Web Development</h3>
-          <p>Creating modern, responsive, and effective websites.</p>
-        </div>
-      </div>
-    </a>
-    <!-- Additional cards for UI/UX Design and Digital Marketing -->
-  </div>
-</section>
+{% include features.html %}
 
 <!-- Interactive Elements Section -->
 <section class="interactive-elements">
@@ -77,9 +17,7 @@ layout: default
 </section>
 
 <!-- Testimonials Carousel -->
-<section id="testimonialsCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Carousel content -->
-</section>
+{% include testimonials-carousel.html %}
 
 <!-- Custom Section: Latest Projects or Featured Works -->
 <section class="latest-projects">
@@ -99,7 +37,11 @@ layout: default
   <h2>Latest Insights</h2>
   <ul>
     {% for post in site.posts limit:3 %}
-      <!-- Blog post previews -->
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <small class="post-date">{{ post.date | date: "%b %-d, %Y" }}</small>
+      <p>{{ post.excerpt }}</p>
+    </li>
     {% endfor %}
   </ul>
   <a href="/blog/" class="more-link">View All Blog Posts</a>

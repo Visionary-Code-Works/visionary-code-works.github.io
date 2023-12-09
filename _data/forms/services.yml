@@ -1,5 +1,6 @@
 - title: "Web Development"
-  description: "Full-stack development services to build responsive and efficient websites."
+  description: "Creating modern, responsive, and effective websites. Full-stack development services to build responsive and efficient websites."
+  link: "/2023-12-07-FeatureWebDevelopment"
   icon: fa-code
 
 - title: "Graphic Design"
@@ -7,11 +8,14 @@
   icon: fa-paint-brush
 
 - title: "Digital Marketing"
-  description: "Comprehensive digital marketing strategies to enhance your online presence."
+  description: "Strategies that elevate your brand's online presence. Comprehensive digital marketing strategies to enhance your online presence."
+  link: "/2023-12-07-FeatureDigitalMarketing"
   icon: fa-bullhorn
 
 - title: "Consulting"
   description: "Expert consulting services to help you optimize your business operations."
   icon: fa-handshake
 
-# Add more services as needed
+- title: "UI/UX Design"
+  description: "Designing intuitive and user-friendly interfaces."
+  link: "/2023-12-07-FeatureUI-UXDesign"

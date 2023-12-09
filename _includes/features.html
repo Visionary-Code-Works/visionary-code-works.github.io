@@ -1,0 +1,16 @@
+<!-- Features Section -->
+<section class="features">
+    <h2>Our Services</h2>
+    <div class="row">
+      {% for service in site.data.services %}
+        <a href="{{ service.link }}" class="feature-card-link">
+          <div class="feature-card">
+            <div class="card-content">
+              <h3>{{ service.title }}</h3>
+              <p>{{ service.description }}</p>
+            </div>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
