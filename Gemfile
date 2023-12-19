@@ -7,9 +7,6 @@ gem 'rack'
 gem 'webrick'
 gem 'faraday-retry'
 
-# If you're using GitHub Pages, you might include:
-gem 'github-pages', group: :jekyll_plugins
-
 # Jekyll Plugins
 # Add other Jekyll plugins here as needed. Examples:
 gem 'jekyll-feed'       # for RSS feed generation
@@ -19,5 +16,6 @@ gem 'jekyll-paginate'
 
 # For development and testing
 group :jekyll_plugins do
+  gem 'github-pages'
   gem 'jekyll-admin', '~> 0.11.1'  # for an admin dashboard
 end
