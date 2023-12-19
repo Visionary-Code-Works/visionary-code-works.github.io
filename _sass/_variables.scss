@@ -21,8 +21,9 @@ $headerTextColor: #fff;
 // Extended Color Palette
 $accentColor: #ff5722; // Example of an accent color
 $backgroundColor: #f8f8f8;
-$linkColor: #007bff;
+//$linkColor: #007bff;
 $linkHoverColor: darken($linkColor, 15%);
+$linkColor: #17a2b8; // Teal
 
 // Typography
 $fontFamily: 'Helvetica Neue', Arial, sans-serif;
