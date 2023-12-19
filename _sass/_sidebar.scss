@@ -38,7 +38,7 @@
 
   h3, h4, h5 {
     // Example: Give each heading a unique color
-    color: adjust-hue($darkColor, $some-degree); // Adjust hue for variety
+    color: adjust-hue($darkColor, 20deg); // Adjust hue for variety
   }
 
   // Section Titles
