@@ -6,6 +6,7 @@ gem 'liquid'
 gem 'rack'
 gem 'webrick'
 gem 'faraday-retry'
+gem 'github-pages'
 
 # Jekyll Plugins
 # Add other Jekyll plugins here as needed. Examples:
