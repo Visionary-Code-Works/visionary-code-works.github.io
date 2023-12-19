@@ -16,5 +16,5 @@ gem 'jekyll-paginate'
 
 # For development and testing
 group :jekyll_plugins do
-  gem 'jekyll-admin', '~> 0.11.1'  # for an admin dashboard
+  gem 'jekyll-admin'  # for an admin dashboard
 end
