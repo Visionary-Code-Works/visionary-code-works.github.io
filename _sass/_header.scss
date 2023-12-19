@@ -7,6 +7,7 @@
   padding: 2rem 1rem; // Increased padding for more space
   border-radius: 10px; // Rounded corners
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); // Adds a subtle shadow for distinction
+  border: 1px solid $border-color; // New border added
   margin-bottom: 2rem; // Adds space between the header and the page content
 
   .branding {
@@ -38,9 +39,14 @@
         font-size: 1.2rem;
         font-weight: normal;
         padding: 0.5rem;
+        background-color: lighten($primaryColor, 10%); // Shaded button background
+        border-radius: $border-radius;
+        transition: background-color 0.3s, box-shadow 0.3s;
 
         &:hover {
-          color: $primaryColor;
+          color: $headerTextColor;
+          background-color: darken($primaryColor, 10%); // Darker shade on hover
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); // Shadow effect on hover
           text-decoration: underline;
         }
       }
