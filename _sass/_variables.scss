@@ -3,6 +3,7 @@
 // Color Scheme
 $primaryColor: #007bff;
 $secondaryColor: #6c757d;
+$tertiaryColor: #ffd700; // Bright yellow
 $successColor: #28a745;
 $infoColor: #17a2b8;
 $warningColor: #ffc107;
@@ -10,7 +11,7 @@ $dangerColor: #dc3545;
 $lightColor: #f8f8f8;
 $darkColor: #343a40;
 $sidebarBgColor: #f4f4f4;
-$textColor: #333;
+$textColor: #212529; // Darker grey
 $footerBgColor: #222;
 $footerTextColor: #fff;
 $footerLinkColor: $linkColor;
@@ -23,6 +24,7 @@ $accentColor: #ff5722; // Example of an accent color
 $backgroundColor: #f8f8f8;
 $linkColor: #007bff;
 $linkHoverColor: darken($linkColor, 15%);
+$linkHoverColorAlternate: #dc3545; // Red
 
 // Typography
 $fontFamily: 'Helvetica Neue', Arial, sans-serif;

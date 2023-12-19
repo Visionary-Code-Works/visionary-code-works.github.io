@@ -2,14 +2,6 @@
 
 @import "variables";
 
-// Updated color variables
-$lightColor: #f8f9fa; // Lighter shade
-$secondaryColor: #ffd700; // Bright yellow
-$primaryColor: #007bff; // Bright blue
-$linkHoverColor: #dc3545; // Red
-$textColor: #212529; // Darker grey
-$darkColor: #343a40; // Dark grey
-
 .sidebar {
   background-color: $sidebarBgColor;
   padding: 1rem;
