@@ -2,6 +2,15 @@
 
 @import "variables";
 
+// Updated color variables
+$lightColor: #f8f9fa; // Lighter shade
+$secondaryColor: #ffd700; // Bright yellow
+$primaryColor: #007bff; // Bright blue
+$linkColor: #17a2b8; // Teal
+$linkHoverColor: #dc3545; // Red
+$textColor: #212529; // Darker grey
+$darkColor: #343a40; // Dark grey
+
 .sidebar {
   background-color: $sidebarBgColor;
   padding: 1rem;
@@ -24,6 +33,21 @@
         border-color: $primaryColor;
       }
     }
+  }
+
+  a {
+    // Example: More vibrant link colors
+    color: $linkColor;
+
+    &:hover {
+      color: $linkHoverColor;
+      text-decoration: underline;
+    }
+  }
+
+  h3, h4, h5 {
+    // Example: Give each heading a unique color
+    color: adjust-hue($darkColor, $some-degree); // Adjust hue for variety
   }
 
   // Section Titles
@@ -146,8 +170,8 @@
 
     .tag {
       display: inline-block;
-      background-color: $lightGray;
-      color: $darkColor;
+      background-color: lighten($primaryColor, 30%);
+      color: darken($textColor, 20%);
       padding: 0.25rem 0.5rem;
       margin: 0.25rem;
       font-size: 0.9rem;
@@ -155,7 +179,7 @@
       text-decoration: none;
 
       &:hover {
-        background-color: $primaryColor;
+        background-color: darken($primaryColor, 10%);
         color: white;
       }
     }

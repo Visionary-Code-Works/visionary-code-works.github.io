@@ -10,13 +10,34 @@
 
   .footer-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; // Distributes space between elements
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; // Allows wrapping when there isn't enough space
 
     @media (max-width: $breakpoint-md) {
       flex-direction: column;
       align-items: flex-start;
+    }
+  }
+
+  .footer-links, .social-links, .footer-credits {
+    display: flex;
+    align-items: center; // Align items in a horizontal line
+    margin-right: 2rem; // Adds right margin for spacing
+
+    li, p, i {
+      margin-right: 1rem; // Adds spacing between each element
+    }
+
+    // Removes the top margin for the credits in larger screens
+    .footer-credits {
+      margin-top: 0;
+    }
+
+    @media (max-width: $breakpoint-md) {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-right: 0; // Removes right margin in smaller screens
     }
   }
 
@@ -25,7 +46,7 @@
     padding: 0;
 
     li {
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.5rem; // Keep for vertical spacing in smaller screens
 
       a {
         color: $footerLinkColor;
@@ -40,12 +61,9 @@
   }
 
   .social-links {
-    display: flex;
-    align-items: center;
-
     i {
       color: $footerTextColor;
-      margin-right: 15px;
+      margin-right: 15px; // Spacing between social icons
       font-size: 1.2rem;
 
       &:hover {
@@ -55,10 +73,6 @@
   }
 
   .footer-credits {
-    margin-top: 1rem;
-    text-align: center;
-    width: 100%;
-
     p {
       margin-bottom: 0;
     }
