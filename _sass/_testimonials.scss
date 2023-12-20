@@ -1,0 +1,6 @@
+.testimonial-image {
+  max-width: 200px; /* Set the maximum width for the images */
+  max-height: 200px; /* Set the maximum height for the images */
+  display: block; /* Ensures the image does not have extra space around it */
+  margin: 0 auto; /* Centers the image in the carousel-item div if it's smaller than the maximum width */
+}
