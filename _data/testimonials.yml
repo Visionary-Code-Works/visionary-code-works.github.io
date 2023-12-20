@@ -6,18 +6,36 @@
 - author: Michael Smith
   role: Marketing Director at Innovate Inc.
   testimonial: "The team at Visionary Code Works are true professionals. They helped us revamp our digital marketing strategy with great success."
-  image: /assets/images/testimonials/michael_smith.jpg
+  image: /assets/img/testimonials/michael_smith.jpg
+
+- author: Ava Martin
+  role: CEO at GreenTech Innovations
+  testimonial: "Working with Visionary Code Works was a game-changer for our eco-friendly tech initiatives. Their innovative solutions and eco-conscious approach were perfectly aligned with our values."
+  image: /assets/img/testimonials/ava_martin.jpg
+
+- author: Liam Thompson
+  role: Head of Product Design at Creatix Studios
+  testimonial: "Visionary Code Works' team brought a fresh perspective to our design challenges. Their creative insights and expertise in user experience elevated our products to a new level."
+  image: /assets/img/testimonials/liam_thompson.jpg
+
+- author: Zoe Rivera
+  role: Director of Digital Strategy at OmniMedia
+  testimonial: "The strategic guidance and digital expertise from Visionary Code Works significantly boosted our online presence, driving both engagement and sales."
+  image: /assets/img/testimonials/zoe_rivera.jpg
+
+- author: Ethan Kim
+  role: Chief Information Officer at CyberSafe
+  testimonial: "Visionary Code Works' approach to cybersecurity is both innovative and reliable. Their tailored solutions have greatly enhanced our data protection strategies."
+  image: /assets/img/testimonials/ethan_kim.jpg
+
+- author: Isabella Chen
+  role: Marketing Manager at Global Health Corp
+  testimonial: "Their team's understanding of the healthcare sector and ability to reach our target audience was remarkable. Visionary Code Works played a pivotal role in our successful campaign launch."
+  image: /assets/img/testimonials/isabella_chen.jpg
+
+- author: Noah Garcia
+  role: Founder and CEO of EduFuture
+  testimonial: "Visionary Code Works' contribution to our educational platform was transformative. Their innovative features and user-friendly design have made learning more accessible and engaging."
+  image: /assets/img/testimonials/noah_garcia.jpg
 
 # Add more testimonials as needed
-
-- text: "First testimonial text here."
-  author: "First Client"
-
-- text: "Second testimonial text here."
-  author: "Second Client"
-
-- text: "Third testimonial text here."
-  author: "Third Client"
-
-- text: "Fourth testimonial text here."
-  author: "Fourth Client"
