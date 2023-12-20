@@ -1,7 +1,7 @@
 - name: John Doe
   role: CEO
   bio: John has over 20 years of experience in the tech industry...
-  image: /assets/images/team/john_doe.jpg
+  image: /assets/images/team/john_doe.png
   social:
     linkedin: https://www.linkedin.com/in/johndoe
     twitter: https://twitter.com/johndoe
@@ -9,7 +9,7 @@
 - name: Jane Smith
   role: Lead Designer
   bio: Jane is an award-winning designer with a passion for user experience...
-  image: /assets/images/team/jane_smith.jpg
+  image: /assets/images/team/jane_smith.png
   social:
     linkedin: https://www.linkedin.com/in/janesmith
     dribbble: https://dribbble.com/janesmith
