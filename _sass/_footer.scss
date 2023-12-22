@@ -1,5 +1,4 @@
 // _footer.scss
-
 @import "variables";
 
 .footer {
@@ -29,11 +28,6 @@
       margin-right: 1rem; // Adds spacing between each element
     }
 
-    // Removes the top margin for the credits in larger screens
-    .footer-credits {
-      margin-top: 0;
-    }
-
     @media (max-width: $breakpoint-md) {
       flex-direction: column;
       align-items: flex-start;
@@ -44,9 +38,11 @@
   .footer-links {
     list-style: none;
     padding: 0;
+    display: flex; // Enables flexbox layout
+    flex-wrap: wrap; // Allows items to wrap
 
     li {
-      margin-bottom: 0.5rem; // Keep for vertical spacing in smaller screens
+      margin-right: 20px; // Space between each link
 
       a {
         color: $footerLinkColor;
@@ -56,6 +52,11 @@
           color: darken($footerLinkColor, 10%);
           text-decoration: underline;
         }
+      }
+
+      @media (max-width: $breakpoint-md) {
+        margin-bottom: 0.5rem; // Vertical spacing in smaller screens
+        margin-right: 0; // Removes right margin in smaller screens
       }
     }
   }
