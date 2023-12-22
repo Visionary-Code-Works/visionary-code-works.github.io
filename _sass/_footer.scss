@@ -7,15 +7,25 @@
   padding: 2rem;
   font-size: 0.9rem;
 
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
   .footer-clients {
     display: flex;
-    justify-content: space-between; // Distributes space between elements
-    align-items: center;
-    flex-wrap: wrap; // Allows wrapping when there isn't enough space
-
-    @media (max-width: $breakpoint-md) {
-      flex-direction: column;
-      align-items: flex-start;
+    justify-content: center; // Center align client logos
+    flex-wrap: wrap;
+    ul {
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      list-style: none;
+    }
+    li {
+      margin: 0 10px; // Spacing between client logos
     }
   }
 
