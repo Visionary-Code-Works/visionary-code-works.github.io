@@ -1,6 +1,17 @@
-.testimonial-image {
-  max-width: 200px; /* Set the maximum width for the images */
-  max-height: 200px; /* Set the maximum height for the images */
-  display: block; /* Ensures the image does not have extra space around it */
-  margin: 0 auto; /* Centers the image in the carousel-item div if it's smaller than the maximum width */
+.testimonial-wrapper {
+  display: flex;
+  align-items: center;
+
+  .testimonial-image {
+    max-width: 200px; // Set the maximum width for the images
+    //max-width: 50%; // Adjust the width as needed
+    max-height: 200px; // Set the maximum height for the images
+    display: block; // Ensures the image does not have extra space around it
+    margin: 0 auto; // Centers the image in the carousel-item div if it's smaller than the maximum width
+    margin-right: 20px; // Space between image and text
+  }
+
+  .testimonial-text {
+    flex: 1;
+  }
 }
