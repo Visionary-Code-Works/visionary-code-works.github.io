@@ -19,8 +19,8 @@ At Visionary Code Works, our mission is to deliver innovative and cutting-edge t
 
 Visionary Code Works is led by a dynamic team of passionate individuals, each bringing unique skills and perspectives to the table:
 
-- **John Doe**, Founder & CEO - With a background in computer science and a passion for entrepreneurship, John leads the company with a vision to revolutionize the tech industry.
-- **Jane Smith**, Lead Developer - Jane's expertise in software development drives our innovative solutions forward.
+- **Fernando McKenzie**,  Co-Founder and Chief Executive Officer - An alumnus of computer science and a fervent entrepreneur, Fernando steers the helm with an inspiring vision. His strategic foresight is not just to navigate the currents of the tech industry but to redefine its boundaries.
+- **Thaddeus Thomas**, Co-Founder and Chief Technology Officer - With a rich tapestry of experience in software development, Thaddeus is the architect of our cutting-edge solutions. His technical acumen ensures that innovation isn't just a buzzword at Visionary Code Works, but the quintessence of every project we undertake.
 - **Alex Johnson**, Creative Director - Alex's creative insights ensure that our products are not only functional but also aesthetically pleasing.
 - **Maria Garcia**, Marketing Manager - Maria's strategic marketing initiatives help us connect with our audience effectively.
 
