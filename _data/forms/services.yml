@@ -19,3 +19,53 @@
 - title: "UI/UX Design"
   description: "Designing intuitive and user-friendly interfaces."
   link: "/2023-12-07-FeatureUI-UXDesign"
+-
+  title: "Dashboard Development"
+  description: "Crafting comprehensive, real-time dashboards for data visualization and business intelligence. Tailored solutions for actionable insights."
+  link: "/2023-12-07-FeatureDashboardDevelopment"
+  icon: fa-chart-bar
+
+- title: "Cloud Migration"
+  description: "Seamless transition services to cloud infrastructure, ensuring scalability, flexibility, and security for your business operations."
+  link: "/2023-12-07-FeatureCloudMigration"
+  icon: fa-cloud
+
+- title: "Mobile App Development"
+  description: "Developing high-performance, cross-platform mobile applications tailored to your business needs."
+  link: "/2023-12-07-FeatureMobileAppDevelopment"
+  icon: fa-mobile-alt
+
+- title: "Cybersecurity Solutions"
+  description: "Providing robust cybersecurity services to protect your digital assets from emerging threats."
+  link: "/2023-12-07-FeatureCybersecuritySolutions"
+  icon: fa-shield-alt
+
+- title: "Artificial Intelligence Integration"
+  description: "Integrating AI technologies to enhance automation, decision-making, and customer experiences."
+  link: "/2023-12-07-FeatureAIIntegration"
+  icon: fa-brain
+
+- title: "IT Support & Management"
+  description: "Offering comprehensive IT support and management services to ensure your technology infrastructure runs smoothly."
+  link: "/2023-12-07-FeatureITSupport"
+  icon: fa-tools
+
+- title: "Software Development"
+  description: "Building custom software solutions that drive innovation and efficiency in your business processes."
+  link: "/2023-12-07-FeatureSoftwareDevelopment"
+  icon: fa-laptop-code
+
+- title: "Blockchain Development"
+  description: "Developing secure, decentralized blockchain applications for various industries."
+  link: "/2023-12-07-FeatureBlockchainDevelopment"
+  icon: fa-chain
+
+- title: "Internet of Things (IoT)"
+  description: "Creating interconnected IoT systems that boost operational efficiency and unlock new business insights."
+  link: "/2023-12-07-FeatureIoT"
+  icon: fa-network-wired
+
+- title: "Big Data Analytics"
+  description: "Harnessing the power of big data to provide you with deep analytics and comprehensive reporting."
+  link: "/2023-12-07-FeatureBigDataAnalytics"
+  icon: fa-database
