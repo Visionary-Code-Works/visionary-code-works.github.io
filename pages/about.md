@@ -19,8 +19,8 @@ At Visionary Code Works, our mission is to deliver innovative and cutting-edge t
 
 Visionary Code Works is led by a dynamic team of passionate individuals, each bringing unique skills and perspectives to the table:
 
-- **John Doe**, Founder & CEO - With a background in computer science and a passion for entrepreneurship, John leads the company with a vision to revolutionize the tech industry.
-- **Jane Smith**, Lead Developer - Jane's expertise in software development drives our innovative solutions forward.
+- **Fernando McKenzie**,  Co-Founder and Chief Executive Officer - An alumnus of computer science and a fervent entrepreneur, Fernando steers the helm with an inspiring vision. His strategic foresight is not just to navigate the currents of the tech industry but to redefine its boundaries.
+- **Thaddeus Thomas**, Co-Founder and Chief Technology Officer - With a rich tapestry of experience in software development, Thaddeus is the architect of our cutting-edge solutions. His technical acumen ensures that innovation isn't just a buzzword at Visionary Code Works, but the quintessence of every project we undertake.
 - **Alex Johnson**, Creative Director - Alex's creative insights ensure that our products are not only functional but also aesthetically pleasing.
 - **Maria Garcia**, Marketing Manager - Maria's strategic marketing initiatives help us connect with our audience effectively.
 
@@ -28,13 +28,15 @@ Visionary Code Works is led by a dynamic team of passionate individuals, each br
 
 ## Our Story
 
-Visionary Code Works began as a small startup in 2015 with the idea of making technology more accessible and user-friendly. From our humble beginnings in a small garage, we've grown into a leading technology firm, serving clients worldwide. Our journey has been one of constant learning, innovation, and growth.
+In the transformative year of 2023, Visionary Code Works was born from the shared vision of two college friends connected by Discord, each with a fervent belief in the power of technology to simplify complexity. What started as late-night brainstorming sessions and lines of code exchanged in chat windows evolved into a thriving enterprise, cutting a bold path through the tech industry with services that now reach a worldwide client base.
 
-We started with simple web development projects, but as we grew, so did our ambitions. Today, we offer a wide range of services, including app development, digital marketing, and AI solutions. Throughout our growth, we've maintained our commitment to delivering exceptional service and creating value for our clients.
+Birthed in an era when the world was redefining connection, our venture thrived amid the new normal set by the pandemic. We harnessed the power of technology not only to bridge distances but also to foster a harmonious work environment. With 90% of our dedicated team dispersed across the world, we are a testament to the boundless nature of innovation, communication, and collaboration.
 
-As we look to the future, we're excited about the possibilities that lie ahead. We're committed to continuing our journey of innovation and excellence, helping our clients and communities thrive in the digital age.
+Starting with the basics of web development, we've scaled our expertise to encompass sophisticated app creation, strategic digital marketing, and pioneering AI solutions. Despite our expansion, the cornerstone of Visionary Code Works remains unaltered: a staunch dedication to exemplary service and adding substantive value to our clients' endeavors.
 
-Thank you for taking the time to get to know us. We're excited about the opportunity to work with you!
+As we cast our gaze forward, we're not just anticipating the future; we're actively shaping it. Our commitment is unwavering—to persist in our journey of discovery and excellence, empowering our clients and communities to flourish in an increasingly digital world.
+
+We're grateful for your interest in our story. Visionary Code Works is eager to embark on this journey with you, forging new paths and achieving new milestones together.
 
 <!-- [You can add more sections as needed, such as 'Our Values', 'Our Achievements', or 'Our Future Goals'.] -->
 
