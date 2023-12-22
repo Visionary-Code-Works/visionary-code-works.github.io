@@ -1,7 +1,7 @@
 - author: Emily Johnson
   role: CEO at TechCorp
   testimonial: "Visionary Code Works delivered exceptional quality and service. Their attention to detail and dedication to our project was outstanding."
-  image: /assets/images/testimonials/emily_johnson.jpg
+  image: /assets/img/testimonials/emily_johnson.jpg
 
 - author: Michael Smith
   role: Marketing Director at Innovate Inc.
@@ -16,7 +16,7 @@
 - author: Liam Thompson
   role: Head of Product Design at Creatix Studios
   testimonial: "Visionary Code Works' team brought a fresh perspective to our design challenges. Their creative insights and expertise in user experience elevated our products to a new level."
-  image: /assets/img/testimonials/liam_thompson.jpg
+  image: /assets/img/testimonials/liam_thompson.png
 
 - author: Zoe Rivera
   role: Director of Digital Strategy at OmniMedia
