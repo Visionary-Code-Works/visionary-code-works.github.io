@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Welcome to Visionary Code Works"
-date: 2023-12-06
+date: 2023-12-07
 author: Thaddeus Thomas
 categories: [General, Announcements]
 tags: [introduction, technology, innovation]

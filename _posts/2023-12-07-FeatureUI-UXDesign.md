@@ -43,7 +43,3 @@ Our portfolio speaks to the transformative power of effective UI/UX design. From
 As technology evolves, so does the landscape of UI/UX design. We are constantly exploring new tools, trends, and methodologies to stay ahead of the curve. Our commitment to excellence and innovation positions us as leaders in the UI/UX design space.
 
 Ready to elevate your digital presence with cutting-edge UI/UX design? Contact us at Visionary Code Works and embark on a journey to transform your digital identity.
-
----
-
-<!-- Remember to customize the content further based on specific projects, client testimonials, and unique insights you may have in the field of UI/UX design. This draft aims to provide a comprehensive and engaging overview of your services in this area. -->

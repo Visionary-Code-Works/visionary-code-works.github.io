@@ -9,6 +9,10 @@ body {
   line-height: 1.5;
   color: $textColor;
   background-color: $backgroundColor;
+  background-image: url('../img/background_pic.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
   // Links
   a {
