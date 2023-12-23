@@ -1,0 +1,33 @@
+.services-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.service {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+.service i.fa {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service h3 {
+  margin: 10px 0;
+}
+
+.service p {
+  color: #666;
+}
+
+.service a {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}
