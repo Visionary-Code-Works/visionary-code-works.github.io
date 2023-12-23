@@ -8,9 +8,9 @@ api_keys:
   mailchimp: "YOUR_MAILCHIMP_API_KEY"
 contact_info:
   email: support@vcwtech.com
-  phone: "+1 "
+  phone: "+1(555)555-5555"
 analytics:
-  google_analytics: "UA-XXXXX-Y"
+  google_analytics: "G-QH33T8MYJZ"
 social_media:
   facebook: "https://www.facebook.com/yourpage"
   twitter: "https://twitter.com/yourprofile"

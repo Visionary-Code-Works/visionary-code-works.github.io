@@ -1,0 +1,15 @@
+<div class="services-section">
+  {% for service in site.data.services %}
+  <div class="service">
+    {% if service.icon %}
+    <!-- Updated icon class for Bootstrap Icons -->
+    <i class="bi bi-{{ service.icon }}"></i>
+    {% endif %}
+    <h3>{{ service.title }}</h3>
+    <p>{{ service.description }}</p>
+    {% if service.link %}
+    <a href="{{ service.link | relative_url }}">Learn More</a>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>

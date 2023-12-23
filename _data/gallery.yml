@@ -1,16 +1,16 @@
 - title: "Project A"
   description: "An innovative project that transformed the client's business."
-  image: /assets/images/gallery/project_a.jpg
+  image: /assets/img/gallery/project_a.png
   category: "Web Development"
 
 - title: "Artwork B"
   description: "A piece of art that showcases our creative design capabilities."
-  image: /assets/images/gallery/artwork_b.jpg
+  image: /assets/img/gallery/artwork_b.png
   category: "Graphic Design"
 
 - title: "Campaign C"
   description: "A successful marketing campaign that significantly boosted brand visibility."
-  image: /assets/images/gallery/campaign_c.jpg
+  image: /assets/img/gallery/campaign_c.png
   category: "Digital Marketing"
 
 # Add more gallery or portfolio items as needed

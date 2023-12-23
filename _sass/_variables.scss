@@ -1,25 +1,32 @@
 // _variables.scss
 
-// Color Scheme
 $primaryColor: #007bff;
 $secondaryColor: #6c757d;
 $tertiaryColor: #ffd700; // Bright yellow
-$successColor: #28a745;
-$infoColor: #17a2b8;
-$warningColor: #ffc107;
-$dangerColor: #dc3545;
-$lightColor: #f8f8f8;
-$darkColor: #343a40;
-$sidebarBgColor: #afafaf;
 $linkColor: cyan;
-$textColor: #212529; // Darker grey
+
+// Color Scheme
+$dangerColor: #dc3545;
+$darkColor: #343a40;
+
 $footerBgColor: #222;
-$footerTextColor: honeydew;
 $footerLinkColor: $linkColor;
+$footerTextColor: honeydew;
+
+$headerBgColor: gold;
+$headerTextColor: forestgreen;
+
+$infoColor: #17a2b8;
+$lightColor: #f8f8f8;
 $lightGray: #ddd;
-$headerBgColor: #333;
-$headerTextColor: navy;
+
+
+$sidebarBgColor: #afafaf;
 $sidebarLinkColor: blue;
+
+$successColor: #28a745;
+$textColor: snow; // Darker grey
+$warningColor: #ffc107;
 
 // Extended Color Palette
 $accentColor: #ff5722; // Example of an accent color

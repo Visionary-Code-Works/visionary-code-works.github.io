@@ -2,7 +2,7 @@ title: Visionary Code Works
 description: >- # this means to ignore newlines until "baseurl:"
   Visionary Code Works is a cutting-edge technology and design company specializing in innovative digital solutions. Our mission is to create impactful and user-friendly digital experiences that drive growth and efficiency.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://visionary-code-works.github.io/"
+url: "https://vcwtech.com/"
 email: thaddeus.r.thomas@gmail.com
 
 # Build settings
@@ -11,6 +11,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-archives
 
 # SEO settings
 seo:
@@ -81,7 +82,7 @@ date_format: '%b %-d, %Y'
 # Default Front Matter
 defaults:
   - scope:
-      path: "/home"
+      path: "/"
       type: "pages"
     values:
       layout: "home"
@@ -118,3 +119,12 @@ footer:
       url: /privacy-policy
     - title: Services
       url: /services
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: archive
+  permalinks:
+    tag: '/tags/:name/'
+    category: '/categories/:name/'

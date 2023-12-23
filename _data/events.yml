@@ -16,4 +16,16 @@
   description: "An evening of networking with some of the most innovative startups and entrepreneurs."
   link: /events/startup-networking
 
+- title: "Event Title 1"
+  date: "2023-01-15"
+  location: "Event Location 1"
+  description: "Brief description of Event 1."
+  link: "/events/event-title-1"
+
+- title: "Event Title 2"
+  date: "2023-02-20"
+  location: "Event Location 2"
+  description: "Brief description of Event 2."
+  link: "/events/event-title-2"
+
 # Add more events as needed

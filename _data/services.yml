@@ -1,71 +1,74 @@
 - title: "Web Development"
   description: "Creating modern, responsive, and effective websites. Full-stack development services to build responsive and efficient websites."
-  link: "/2023-12-07-FeatureWebDevelopment"
-  icon: fa-code
+  link: "/2023/12/07/FeatureWebDevelopment"
+  icon: "code-slash"
 
 - title: "Graphic Design"
   description: "Creative design solutions for digital and print media."
-  icon: fa-paint-brush
+  link: "/2023/12/23/GraphicDesign"
+  icon: "brush"
 
 - title: "Digital Marketing"
   description: "Strategies that elevate your brand's online presence. Comprehensive digital marketing strategies to enhance your online presence."
-  link: "/2023-12-07-FeatureDigitalMarketing"
-  icon: fa-bullhorn
+  link: "/2023/12/07/FeatureDigitalMarketing"
+  icon: "megaphone"
 
 - title: "Consulting"
   description: "Expert consulting services to help you optimize your business operations."
-  icon: fa-handshake
+  link: "/2023/12/23/MaximizingBusinessPotentialThroughExpertConsulting"
+  icon: "handshake"
 
 - title: "UI/UX Design"
   description: "Designing intuitive and user-friendly interfaces."
-  link: "/2023-12-07-FeatureUI-UXDesign"
--
-  title: "Dashboard Development"
+  link: "/2023/12/07/FeatureUI-UXDesign"
+  icon: "ui-checks-grid"
+
+- title: "Dashboard Development"
   description: "Crafting comprehensive, real-time dashboards for data visualization and business intelligence. Tailored solutions for actionable insights."
-  link: "/2023-12-07-FeatureDashboardDevelopment"
-  icon: fa-chart-bar
+  link: "/2023/12/07/FeatureDashboardDevelopment"
+  icon: "bar-chart"
 
 - title: "Cloud Migration"
   description: "Seamless transition services to cloud infrastructure, ensuring scalability, flexibility, and security for your business operations."
-  link: "/2023-12-07-FeatureCloudMigration"
-  icon: fa-cloud
+  link: "/2023/12/07/FeatureCloudMigration"
+  icon: "cloud-arrow-up"
 
 - title: "Mobile App Development"
   description: "Developing high-performance, cross-platform mobile applications tailored to your business needs."
-  link: "/2023-12-07-FeatureMobileAppDevelopment"
-  icon: fa-mobile-alt
+  link: "/2023/12/07/FeatureMobileAppDevelopment"
+  icon: "phone"
 
 - title: "Cybersecurity Solutions"
   description: "Providing robust cybersecurity services to protect your digital assets from emerging threats."
-  link: "/2023-12-07-FeatureCybersecuritySolutions"
-  icon: fa-shield-alt
+  link: "/2023/12/07/FeatureCybersecuritySolutions"
+  icon: "shield-lock"
 
 - title: "Artificial Intelligence Integration"
   description: "Integrating AI technologies to enhance automation, decision-making, and customer experiences."
-  link: "/2023-12-07-FeatureAIIntegration"
-  icon: fa-brain
+  link: "/2023/12/07/FeatureAIIntegration"
+  icon: "cpu"
 
 - title: "IT Support & Management"
   description: "Offering comprehensive IT support and management services to ensure your technology infrastructure runs smoothly."
-  link: "/2023-12-07-FeatureITSupport"
-  icon: fa-tools
+  link: "/2023/12/07/FeatureITSupport"
+  icon: "tools"
 
 - title: "Software Development"
   description: "Building custom software solutions that drive innovation and efficiency in your business processes."
-  link: "/2023-12-07-FeatureSoftwareDevelopment"
-  icon: fa-laptop-code
+  link: "/2023/12/07/FeatureSoftwareDevelopment"
+  icon: "laptop"
 
 - title: "Blockchain Development"
   description: "Developing secure, decentralized blockchain applications for various industries."
-  link: "/2023-12-07-FeatureBlockchainDevelopment"
-  icon: fa-chain
+  link: "/2023/12/07/FeatureBlockchainDevelopment"
+  icon: "link-45deg"
 
 - title: "Internet of Things (IoT)"
   description: "Creating interconnected IoT systems that boost operational efficiency and unlock new business insights."
-  link: "/2023-12-07-FeatureIoT"
-  icon: fa-network-wired
+  link: "/2023/12/07/FeatureIoT"
+  icon: "diagram-3"
 
 - title: "Big Data Analytics"
   description: "Harnessing the power of big data to provide you with deep analytics and comprehensive reporting."
-  link: "/2023-12-07-FeatureBigDataAnalytics"
-  icon: fa-database
+  link: "/2023/12/07/FeatureBigDataAnalytics"
+  icon: "hdd-stack"

@@ -1,47 +1,42 @@
 <footer class="footer">
   <div class="container">
     <!-- Basic Footer Content -->
-    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+    <p>
+      &copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.
+    </p>
 
-    <!-- Footer Navigation -->
-    {% for section in site.data.navigation.footer %}
-    <div class="dropdown">
-      <button class="dropbtn">{{ section[0] | replace: '-', ' ' | capitalize }}</button>
-      <div class="dropdown-content">
-        {% for item in section[1] %}
-        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-        {% endfor %}
-      </div>
-    </div>
-    {% endfor %}
-
-    <!-- Navigation Links from _data/navigation.yml -->
-    {% for section in site.data.navigation.footer %}
-      <div class="{{ section[0] }}">
-        <h4>{{ section[0] | replace: '-', ' ' | capitalize }}</h4>
-        <ul class="footer-links">
+    <!-- Footer Navigation and Client Logos Container -->
+    <div class="footer-nav-logos">
+      <!-- Footer Navigation -->
+      {% for section in site.data.navigation.footer %}
+      <div class="dropdown">
+        <button class="dropbtn">
+          {{ section[0] | replace: '-', ' ' | capitalize }}
+        </button>
+        <div class="dropdown-content">
           {% for item in section[1] %}
-            <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
           {% endfor %}
-        </ul>
+        </div>
       </div>
-    {% endfor %}
+      {% endfor %}
 
-    <!-- Client Logos -->
-    {% if site.data.clients %}
+      <!-- Client Logos -->
+      {% if site.data.clients %}
       <div class="footer-clients">
         <h4>Our Clients</h4>
         <ul>
           {% for client in site.data.clients %}
-            <li>
-              <a href="{{ client.website }}" title="{{ client.name }}">
-                <img src="{{ client.logo }}" alt="{{ client.name }}" />
-              </a>
-            </li>
+          <li>
+            <a href="{{ client.website }}" title="{{ client.name }}">
+              <img src="{{ client.logo }}" alt="{{ client.name }}" />
+            </a>
+          </li>
           {% endfor %}
         </ul>
       </div>
-    {% endif %}
+      {% endif %}
+    </div>
 
     <!-- Additional Sections -->
     <!-- You can add more sections here like certifications, or any other relevant information -->

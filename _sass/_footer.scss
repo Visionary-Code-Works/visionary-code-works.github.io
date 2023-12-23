@@ -12,15 +12,29 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+
+    // New wrapper for navigation and client logos
+    .footer-nav-logos {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%; // Ensure full width
+
+      @media (max-width: $breakpoint-md) {
+        flex-direction: column;
+      }
+    }
   }
 
   .footer-clients {
+    margin-left: auto; // Align right
     display: flex;
-    justify-content: center; // Center align client logos
+    justify-content: flex-end; // Align client logos to the right
     flex-wrap: wrap;
+
     ul {
       display: flex;
-      justify-content: center;
+      justify-content: flex-end;
       padding: 0;
       list-style: none;
     }
@@ -86,6 +100,18 @@
   .footer-credits {
     p {
       margin-bottom: 0;
+    }
+
+  }
+  // Adjustments for responsive design
+  @media (max-width: $breakpoint-md) {
+    .footer-nav-logos {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .footer-clients {
+      justify-content: center;
     }
   }
 }
