@@ -1,9 +1,19 @@
 <footer class="footer">
   <div class="container">
     <!-- Basic Footer Content -->
-    <p>
-      &copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.
-    </p>
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+
+    <!-- Footer Navigation -->
+    {% for section in site.data.navigation.footer %}
+    <div class="dropdown">
+      <button class="dropbtn">{{ section[0] | replace: '-', ' ' | capitalize }}</button>
+      <div class="dropdown-content">
+        {% for item in section[1] %}
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
 
     <!-- Navigation Links from _data/navigation.yml -->
     {% for section in site.data.navigation.footer %}

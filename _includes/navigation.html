@@ -1,13 +1,13 @@
 <nav class="site-navigation">
   <!-- Main Navigation -->
   {% for section in site.data.navigation.main %}
-  <div class="{{ section[0] }}">
-    <h3>{{ section[0] | capitalize }}</h3>
-    <ul>
+  <div class="dropdown">
+    <button class="dropbtn">{{ section[0] | capitalize }}</button>
+    <div class="dropdown-content">
       {% for item in section[1] %}
-      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      <a href="{{ item.url }}">{{ item.title }}</a>
       {% endfor %}
-    </ul>
+    </div>
   </div>
   {% endfor %}
 </nav>

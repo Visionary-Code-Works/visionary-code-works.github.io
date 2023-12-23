@@ -34,3 +34,44 @@
 
   // Add responsive design adjustments here if necessary
 }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #4CAF50;  // Button background color
+  color: white;              // Text color
+  padding: 16px;             // Padding around the text
+  font-size: 16px;           // Text size
+  border: none;              // Removes the border
+  cursor: pointer;           // Changes the cursor on hover
+  border-radius: 5px;        // Rounded corners for the button
+
+  &:hover {
+    background-color: #3e8e41; // Slightly darker background on hover
+  }
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+  a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+    &:hover { background-color: #f1f1f1 }
+  }
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
