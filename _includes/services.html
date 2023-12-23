@@ -2,7 +2,8 @@
   {% for service in site.data.services %}
   <div class="service">
     {% if service.icon %}
-    <i class="fa {{ service.icon }}"></i>
+    <!-- Updated icon class for Bootstrap Icons -->
+    <i class="bi bi-{{ service.icon }}"></i>
     {% endif %}
     <h3>{{ service.title }}</h3>
     <p>{{ service.description }}</p>
