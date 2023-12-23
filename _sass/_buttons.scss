@@ -1,0 +1,22 @@
+@import "variables";
+
+.btn {
+  background-color: $primaryColor;
+  color: $textColor;
+  padding: $spacing-small $spacing-unit;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: $baseFontSize;
+  margin: $spacing-small $spacing-small / 2;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: $border-radius;
+
+  &:hover {
+    background-color: $textColor;
+    color: $primaryColor;
+    border: 2px solid $primaryColor;
+  }
+}
