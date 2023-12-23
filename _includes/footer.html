@@ -15,18 +15,6 @@
     </div>
     {% endfor %}
 
-    <!-- Navigation Links from _data/navigation.yml -->
-    {% for section in site.data.navigation.footer %}
-      <div class="{{ section[0] }}">
-        <h4>{{ section[0] | replace: '-', ' ' | capitalize }}</h4>
-        <ul class="footer-links">
-          {% for item in section[1] %}
-            <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
-    {% endfor %}
-
     <!-- Client Logos -->
     {% if site.data.clients %}
       <div class="footer-clients">
