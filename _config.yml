@@ -11,6 +11,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-archives
 
 # SEO settings
 seo:
@@ -118,3 +119,12 @@ footer:
       url: /privacy-policy
     - title: Services
       url: /services
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: archive
+  permalinks:
+    tag: '/tags/:name/'
+    category: '/categories/:name/'

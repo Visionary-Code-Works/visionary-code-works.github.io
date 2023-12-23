@@ -14,6 +14,7 @@ gem 'jekyll-feed'       # for RSS feed generation
 gem 'jekyll-sitemap'     # for creating a sitemap
 gem 'jekyll-seo-tag'     # for SEO enhancements
 gem 'jekyll-paginate'
+gem 'jekyll-archives'
 
 # For development and testing
 group :jekyll_plugins do
