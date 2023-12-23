@@ -3,33 +3,36 @@
     <!-- Basic Footer Content -->
     <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
 
-    <!-- Footer Navigation -->
-    {% for section in site.data.navigation.footer %}
-    <div class="dropdown">
-      <button class="dropbtn">{{ section[0] | replace: '-', ' ' | capitalize }}</button>
-      <div class="dropdown-content">
-        {% for item in section[1] %}
-        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-        {% endfor %}
-      </div>
-    </div>
-    {% endfor %}
-
-    <!-- Client Logos -->
-    {% if site.data.clients %}
-      <div class="footer-clients">
-        <h4>Our Clients</h4>
-        <ul>
-          {% for client in site.data.clients %}
-            <li>
-              <a href="{{ client.website }}" title="{{ client.name }}">
-                <img src="{{ client.logo }}" alt="{{ client.name }}" />
-              </a>
-            </li>
+    <!-- Footer Navigation and Client Logos Container -->
+    <div class="footer-nav-logos">
+      <!-- Footer Navigation -->
+      {% for section in site.data.navigation.footer %}
+      <div class="dropdown">
+        <button class="dropbtn">{{ section[0] | replace: '-', ' ' | capitalize }}</button>
+        <div class="dropdown-content">
+          {% for item in section[1] %}
+          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
           {% endfor %}
-        </ul>
+        </div>
       </div>
-    {% endif %}
+      {% endfor %}
+
+      <!-- Client Logos -->
+      {% if site.data.clients %}
+        <div class="footer-clients">
+          <h4>Our Clients</h4>
+          <ul>
+            {% for client in site.data.clients %}
+              <li>
+                <a href="{{ client.website }}" title="{{ client.name }}">
+                  <img src="{{ client.logo }}" alt="{{ client.name }}" />
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+    </div>
 
     <!-- Additional Sections -->
     <!-- You can add more sections here like certifications, or any other relevant information -->
