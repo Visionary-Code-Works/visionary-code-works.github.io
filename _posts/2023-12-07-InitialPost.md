@@ -2,7 +2,7 @@
 layout: post
 title: "Welcome to Visionary Code Works"
 date: 2023-12-07
-author: Thaddeus Thomas
+author: Thaddeus Thomas, Fernando McKenzie
 categories: [General, Announcements]
 tags: [introduction, technology, innovation]
 comments: true

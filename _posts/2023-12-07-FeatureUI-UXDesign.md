@@ -3,7 +3,7 @@ layout: post
 title: "UI/UX Design Feature"
 date: 2023-12-07
 comments: true
-author: Thaddeus Thomas
+author: Thaddeus Thomas, Fernando Mckenzie
 categories: [Design]
 tags: [UI, UX, User Experience, User Interface]
 ---

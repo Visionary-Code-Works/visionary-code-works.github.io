@@ -3,7 +3,7 @@ layout: post
 title: "Introducing Stock Analysis Program: Now Available on PyPI!"
 date: 2023-12-22
 comments: true
-author: Thaddeus Thomas
+author: Thaddeus Thomas, Fernando McKenzie
 categories: [Finance, Python, PyPI, Software]
 tags: [stock-analysis, financial-data, visualization, python-package]
 ---

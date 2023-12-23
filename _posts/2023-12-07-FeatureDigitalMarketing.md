@@ -3,7 +3,7 @@ layout: post
 title: "Empowering Brands with Digital Marketing"
 date: 2023-12-07
 comments: true
-author: Thaddeus Thomas
+author: Thaddeus Thomas, Fernando McKenzie
 categories: [Marketing]
 tags: [Digital Marketing, SEO, Social Media, Content Strategy]
 ---
