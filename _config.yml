@@ -82,7 +82,7 @@ date_format: '%b %-d, %Y'
 # Default Front Matter
 defaults:
   - scope:
-      path: "/home"
+      path: "/"
       type: "pages"
     values:
       layout: "home"
