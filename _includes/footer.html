@@ -6,28 +6,31 @@
     </p>
 
     <!-- Navigation Links from _data/navigation.yml -->
-    {% if site.data.navigation.footer %}
-    <ul class="footer-links">
-      {% for link in site.data.navigation.footer %}
-      <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
-      {% endfor %}
-    </ul>
-    {% endif %}
+    {% for section in site.data.navigation.footer %}
+      <div class="{{ section[0] }}">
+        <h4>{{ section[0] | replace: '-', ' ' | capitalize }}</h4>
+        <ul class="footer-links">
+          {% for item in section[1] %}
+            <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
 
     <!-- Client Logos -->
     {% if site.data.clients %}
-    <div class="footer-clients">
-      <h4>Our Clients</h4>
-      <ul>
-        {% for client in site.data.clients %}
-        <li>
-          <a href="{{ client.website }}" title="{{ client.name }}">
-            <img src="{{ client.logo }}" alt="{{ client.name }}" />
-          </a>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
+      <div class="footer-clients">
+        <h4>Our Clients</h4>
+        <ul>
+          {% for client in site.data.clients %}
+            <li>
+              <a href="{{ client.website }}" title="{{ client.name }}">
+                <img src="{{ client.logo }}" alt="{{ client.name }}" />
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
     {% endif %}
 
     <!-- Additional Sections -->
@@ -35,6 +38,5 @@
 
     <!-- Social Links Included from _includes/social-links.html -->
     {% include social-links.html %}
-
   </div>
 </footer>

@@ -15,7 +15,3 @@ In the meantime, feel free to continue exploring our website:
 - [View our Portfolio](/portfolio/)
 
 We look forward to connecting with you!
-
----
-
-End of Thank You Page.

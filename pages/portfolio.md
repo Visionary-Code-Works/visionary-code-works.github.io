@@ -43,7 +43,3 @@ Our team devised and executed a comprehensive digital marketing campaign for a t
 [View Project](/link-to-detailed-project-3)
 
 [Continue with more projects as needed, following the same format.]
-
----
-
-End of Portfolio Page.

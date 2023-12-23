@@ -50,7 +50,3 @@ If there are any questions regarding this privacy policy, you may contact us usi
 - Address: [Physical Address]
 
 This policy was last updated on 2023-12-07.
-
----
-
-End of Privacy Policy Page.

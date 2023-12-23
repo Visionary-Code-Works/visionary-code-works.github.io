@@ -36,6 +36,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
 keep_files:
   - .git
   - .svn
@@ -93,7 +94,7 @@ defaults:
     values:
       layout: "post"
       author: "thomasthaddeus"
-      image: "/assets/img/thad.jpg"
+      image: "/assets/img/site-logo.png"
 
 # Social Media Links
 social_links:

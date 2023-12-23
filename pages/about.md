@@ -24,8 +24,6 @@ Visionary Code Works is led by a dynamic team of passionate individuals, each br
 - **Alex Johnson**, Creative Director - Alex's creative insights ensure that our products are not only functional but also aesthetically pleasing.
 - **Maria Garcia**, Marketing Manager - Maria's strategic marketing initiatives help us connect with our audience effectively.
 
-<!-- [Additional team member profiles as needed.] -->
-
 ## Our Story
 
 In the transformative year of 2023, Visionary Code Works was born from the shared vision of two college friends connected by Discord, each with a fervent belief in the power of technology to simplify complexity. What started as late-night brainstorming sessions and lines of code exchanged in chat windows evolved into a thriving enterprise, cutting a bold path through the tech industry with services that now reach a worldwide client base.
@@ -39,10 +37,6 @@ As we cast our gaze forward, we're not just anticipating the future; we're activ
 We're grateful for your interest in our story. Visionary Code Works is eager to embark on this journey with you, forging new paths and achieving new milestones together.
 
 <!-- [You can add more sections as needed, such as 'Our Values', 'Our Achievements', or 'Our Future Goals'.] -->
-
----
-
-End of About Us Page.
 
 <!--
 ### Notes:

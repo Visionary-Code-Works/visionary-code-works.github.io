@@ -41,6 +41,6 @@ Your use of our services and these Terms are governed by and construed in accord
 
 ## Contact Us
 
-If you have any questions about these Terms, please contact us at [email](mailto:thaddeus.r.thomas@gmail.com).
+If you have any questions about these Terms, please contact us at [email](mailto:support@vcwtech.com).
 
-_Last updated: 2023-12-08_
+*Last updated: 2023-12-08*

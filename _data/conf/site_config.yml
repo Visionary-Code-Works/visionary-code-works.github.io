@@ -7,8 +7,8 @@ api_keys:
   google_maps: "YOUR_GOOGLE_MAPS_API_KEY"
   mailchimp: "YOUR_MAILCHIMP_API_KEY"
 contact_info:
-  email: contact@yourdomain.com
-  phone: "+1234567890"
+  email: support@vcwtech.com
+  phone: "+1 "
 analytics:
   google_analytics: "UA-XXXXX-Y"
 social_media:

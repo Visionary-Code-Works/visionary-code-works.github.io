@@ -30,12 +30,6 @@ Quality and security are paramount in all our projects. We adhere to industry be
 
 Post-project, we offer ongoing support and maintenance to ensure the continued performance and relevance of your solution. This includes regular updates, security checks, and technical assistance as needed.
 
-[Continue with more questions and answers as needed.]
-
----
-
-End of FAQ Page.
-
 <!--
 ### Notes:
 

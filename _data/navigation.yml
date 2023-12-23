@@ -1,23 +1,69 @@
 main:
-  - title: Home
-    url: /home/
-  - title: About
-    url: /about/
-  - title: Blog
-    url: /blog/
-  - title: Portfolio
-    url: /portfolio/
-  - title: Contact
-    url: /contact/
-  - title: Services
-    url: /services/
-  - title: FAQ
-    url: /faq/
+  about-us:
+    - title: About
+      url: /about/
+    - title: Team
+      url: /team/
+    - title: Careers
+      url: /careers/
+    - title: Press
+      url: /press/
+
+  services:
+    - title: Services
+      url: /services/
+    - title: Case Studies
+      url: /case-studies/
+    - title: Testimonials
+      url: /testimonials/
+
+  portfolio:
+    - title: Portfolio
+      url: /portfolio/
+    - title: Gallery
+      url: /gallery/
+
+  resources:
+    - title: Blog
+      url: /blog/
+    - title: Resources
+      url: /resources/
+    - title: News
+      url: /news/
+
+  community:
+    - title: Events
+      url: /events/
+    - title: Community Guidelines
+      url: /community-guidelines/
+
+  shop:
+    - title: Shop
+      url: /shop/
+
+  support:
+    - title: Contact
+      url: /contact/
+    - title: FAQ
+      url: /faq/
+
+  home:
+    - title: Home
+      url: /home/
 
 footer:
-  - title: Contact
-    url: /contact/
-  - title: Privacy Policy
-    url: /privacy-policy/
-  - title: Terms of Service
-    url: /terms-of-service/
+  quick-links:
+    - title: Contact
+      url: /contact/
+    - title: FAQ
+      url: /faq/
+    - title: Sitemap
+      url: /sitemap.xml
+    - title: Accessibility
+      url: /accessibility/
+
+  legal:
+    - title: Privacy Policy
+      url: /privacy-policy/
+    - title: Terms of Service
+      url: /terms-of-service/
