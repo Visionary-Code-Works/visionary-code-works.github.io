@@ -3,7 +3,7 @@ layout: post
 title: "Crafting Visual Impact: The Art of Graphic Design at Visionary Code Works"
 date: 2023-12-23
 comments: true
-author: Thaddeus Thomas
+author: Thaddeus Thomas, Fernando Mckenzie
 categories: [Design]
 tags: [Graphic Design, Branding, Visual Communication, Creative Design]
 ---

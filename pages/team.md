@@ -10,10 +10,9 @@ Our team is the foundation of our success at Visionary Code Works. Comprised of 
 
 ### Leadership
 
-- **[Name]**, CEO: Brief bio or statement.
-- **[Name]**, CTO: Brief bio or statement.
-- **[Name]**, Creative Director: Brief bio or statement.
-
+- **[Fernando McKenzie]**, CEO
+- **[Thaddeus Thomas]**, CTO
+  
 ### Our Team
 
 {% for member in site.data.team %}

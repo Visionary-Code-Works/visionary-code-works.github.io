@@ -3,7 +3,7 @@ layout: post
 title: "Maximizing Business Potential Through Expert Consulting"
 date: 2023-12-23
 comments: true
-author: Thaddeus Thomas
+author: Thaddeus Thomas, Fernando McKenzie
 categories: [Consulting]
 tags: [Business Strategy, Operational Efficiency, Market Analysis]
 ---
