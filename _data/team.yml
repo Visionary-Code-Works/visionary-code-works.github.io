@@ -1,7 +1,7 @@
 - name: Fernando McKenzie
   role: CEO
-  bio: \
-    Fernando McKenzie, the Chief Executive Officer at Visionary Code Works, epitomizes the spirit of innovation and communal collaboration in the tech world.With his rich background in computer science, Fernando has always been at the forefront of advocating for open-source development and the free exchange of ideas.His journey in the tech industry began with a deep-rooted passion for coding and a vision to make impactful software accessible to all.Under his leadership, Visionary Code Works has become a hub for developers who share a common goal of creating software that makes a difference.Fernando's approach to leadership is deeply collaborative, fostering an environment where learning and shared knowledge are the keystones of innovation.His vision for Visionary Code Works is not just to be a leader in software development but to be a catalyst for community-driven technological advancement.
+  bio: 
+    As Chief Executive Officer at Visionary Code Works, epitomizes the spirit of innovation and communal collaboration in the tech world.With his rich background in computer science, Fernando has always been at the forefront of advocating for open-source development and the free exchange of ideas.His journey in the tech industry began with a deep-rooted passion for coding and a vision to make impactful software accessible to all.Under his leadership, Visionary Code Works has become a hub for developers who share a common goal of creating software that makes a difference.Fernando's approach to leadership is deeply collaborative, fostering an environment where learning and shared knowledge are the keystones of innovation.His vision for Visionary Code Works is not just to be a leader in software development but to be a catalyst for community-driven technological advancement.
   image: /assets/images/team/john_doe.png
   social:
     linkedin: https://www.linkedin.com/in/fernandomckenzie/
@@ -9,8 +9,8 @@
 
 - name: Thaddeus Thomas
   role: CTO
-  bio: \ 
-    Thaddeus Thomas serves as the Chief Technology Officer of Visionary Code Works, where he blends technical prowess with a passion for 
+  bio: 
+    As the Chief Technology Officer of Visionary Code Works, where he blends technical prowess with a passion for 
     collaborative innovation. A computer science expert, Thaddeus's career is marked by his dedication to open-source development and his belief in 
     the power of community-driven projects. At Visionary Code Works, he is instrumental in steering the technological direction of the company, 
     ensuring that the solutions developed are not only cutting-edge but also aligned with the ethos of communal growth and learning. Thaddeus's 
