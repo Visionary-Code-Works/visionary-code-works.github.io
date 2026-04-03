@@ -24,9 +24,35 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Image Gallery - Lightbox effect
+  function isSafeImageSrc(src) {
+    if (!src || typeof src !== "string") {
+      return false;
+    }
+
+    // Disallow javascript: and other dangerous schemes explicitly
+    var trimmed = src.trim();
+    var lower = trimmed.toLowerCase();
+    if (lower.startsWith("javascript:")) {
+      return false;
+    }
+
+    try {
+      // Support relative URLs by resolving them against the current location
+      var url = new URL(trimmed, window.location.href);
+      var protocol = url.protocol;
+      return protocol === "http:" || protocol === "https:";
+    } catch (e) {
+      // If URL parsing fails, treat as unsafe
+      return false;
+    }
+  }
+
   document.querySelectorAll(".gallery-item").forEach((item) => {
     item.addEventListener("click", function () {
       var src = this.getAttribute("data-src");
+      if (!isSafeImageSrc(src)) {
+        return;
+      }
       var lightboxImage = document.getElementById("lightbox-image");
       var lightboxContainer = document.getElementById("lightbox-container");
       if (lightboxImage && lightboxContainer) {
