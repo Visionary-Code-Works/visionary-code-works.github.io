@@ -1,5 +1,8 @@
 name: Auto Update Changelog
 
+permissions:
+  contents: write
+
 on:
   push:
     branches:
