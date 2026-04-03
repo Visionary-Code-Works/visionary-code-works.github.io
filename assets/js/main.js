@@ -29,10 +29,23 @@ document.addEventListener("DOMContentLoaded", function () {
       return false;
     }
 
-    // Disallow javascript: and other dangerous schemes explicitly
+    // Normalize and validate whitespace to prevent hidden characters
     var trimmed = src.trim();
+    if (!trimmed) {
+      return false;
+    }
+
+    // Reject if leading/trailing whitespace was present; helps avoid obfuscated schemes
+    if (trimmed.length !== src.length) {
+      // If you want to allow harmless whitespace, remove this check
+      return false;
+    }
+
     var lower = trimmed.toLowerCase();
-    if (lower.startsWith("javascript:")) {
+
+    // Quick pre-check to disallow javascript: and other executable schemes even if URL parsing differs
+    // This checks the raw string before passing it to the URL constructor
+    if (/^\s*javascript\s*:/i.test(src)) {
       return false;
     }
 
@@ -40,7 +53,18 @@ document.addEventListener("DOMContentLoaded", function () {
       // Support relative URLs by resolving them against the current location
       var url = new URL(trimmed, window.location.href);
       var protocol = url.protocol;
-      return protocol === "http:" || protocol === "https:";
+
+      // Disallow protocol-relative URLs (//example.com/...) by requiring explicit protocol
+      if (!protocol) {
+        return false;
+      }
+
+      // Only allow HTTP and HTTPS image sources
+      if (protocol !== "http:" && protocol !== "https:") {
+        return false;
+      }
+
+      return true;
     } catch (e) {
       // If URL parsing fails, treat as unsafe
       return false;
